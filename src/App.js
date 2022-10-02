@@ -12,14 +12,14 @@ function App() {
 
   return (
     <>
-    <Navbar />
-    <Scroll_loc />
-    <Landing />
-      <div id="home">
+      <Navbar />
+      <Scroll_loc />
+      <Landing />
+      <section id="home">
         <Canvas camera={{ position: [0, 0, 2], fov: 100 }}>
           <Geo />
         </Canvas>
-      </div>
+      </section>
       <Bg_circles />
       <Sections />
     </>

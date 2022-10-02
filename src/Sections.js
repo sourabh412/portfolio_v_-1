@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import About from './components/About';
 
 const up_anim = {
     offscreen: {
@@ -15,54 +16,47 @@ const up_anim = {
 
 function Sections() {
     return (
-        <div>
-            <motion.div className='h-screen mt-1' id="about"
+        <>
+            <section className='h-auto mt-1 py-20' id="about">
+                <About />
+            </section>
+            <motion.section className='h-screen' id="projects"
                 variants={up_anim}
                 initial="offscreen"
                 whileInView="onscreen"
-                viewport={{ once: true }}
-                transition={{ duration: 1 }}
-            >
-                <h1 className='text-9xl text-white'>Hello world</h1>
-                <h2 className='text-7xl text-white'>This is div 1......Testing...</h2>
-            </motion.div>
-            <motion.div className='h-screen' id="projects"
-                variants={up_anim}
-                initial="offscreen"
-                whileInView="onscreen"
-                viewport={{ once: true }}
+                viewport={{ once: false }}
                 transition={{ duration: 1 }}
             >
 
-            </motion.div>
-            <motion.div className='h-screen' id="benchmarks"
+            </motion.section>
+            <motion.section className='h-screen' id="benchmarks"
                 variants={up_anim}
                 initial="offscreen"
                 whileInView="onscreen"
-                viewport={{ once: true }}
+                viewport={{ once: false }}
                 transition={{ duration: 1 }}
             >
 
-            </motion.div>
-            <motion.div className='h-screen' id="skills"
+            </motion.section>
+            <motion.section className='h-screen' id="skills"
                 variants={up_anim}
                 initial="offscreen"
                 whileInView="onscreen"
-                viewport={{ once: true }}
+                viewport={{ once: false }}
                 transition={{ duration: 1 }}
             >
 
-            </motion.div>
-            <motion.div className='h-screen' id="contact"
+            </motion.section>
+            <motion.section className='h-screen' id="contact"
                 variants={up_anim}
                 initial="offscreen"
                 whileInView="onscreen"
-                viewport={{ once: true }}
+                viewport={{ once: false }}
                 transition={{ duration: 1 }}
             >
 
-            </motion.div>
-        </div>
+            </motion.section>
+        </>
     )
 }
 

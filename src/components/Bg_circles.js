@@ -18,12 +18,12 @@ const randborder = {
 function Bg_circles() {
   return (
     <>
-      <motion.div className='h-96 w-96 rounded-full' id="Bg_circles_1"
+      <motion.div className='rounded-full' id="Bg_circle_1"
         variants={randborder}
         initial="offscreen"
         animate="onscreen"
       ></motion.div>
-      <div id="Bg-circle_2"></div>
+      <div id="Bg_circle_2"></div>
     </>
   )
 }

@@ -20,18 +20,20 @@ canvas{
     width: 100vw;
 }
 
-#Bg_circles_1{
-    position: absolute;
-    background: linear-gradient(to right,#188DC9,#E65DC4);
-    left: 300px;
-}
-
 .bg-cus{
     background: hsla(0,0%,100%,.25);
     backdrop-filter: blur(4px);
 }
 
-#Bg-circle_2{
+#Bg_circle_1{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    background: linear-gradient(to right,#188DC9,#E65DC4);
+    right: 200px;
+}
+
+#Bg_circle_2{
     position: absolute;
     height: 1500px;
     width: 1500px;

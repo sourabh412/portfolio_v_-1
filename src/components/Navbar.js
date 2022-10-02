@@ -10,7 +10,7 @@ import h from '../assets/h.svg';
 import alt from '../assets/alt.svg';
 
 const navigation = [
-  { name: 'Home', href: '/#home', current: true },
+  { name: 'Home', href: '/#home', current: false },
   { name: 'About', href: '/#about', current: false },
   { name: 'Projects', href: '/#projects', current: false },
   { name: 'Benchmarks', href: '/#benchmarks', current: false },
@@ -40,30 +40,30 @@ export default function Navbar() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+              <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-between">
                 <div className="flex flex-shrink-0 items-center">
                   <div
                     className="flex h-8 w-auto lg:hidden"
                   >
-                    <img src={s} alt={alt} className="h-7 w-7"/>
-                    <img src={o} alt={alt} className="h-7 w-7"/>
-                    <img src={u} alt={alt} className="h-7 w-7"/>
-                    <img src={r} alt={alt} className="h-7 w-7"/>
-                    <img src={a} alt={alt} className="h-7 w-7"/>
-                    <img src={b} alt={alt} className="h-7 w-7"/>
-                    <img src={h} alt={alt} className="h-7 w-7"/>
-                </div>
+                    <img src={s} alt={alt} className="h-7 w-7" />
+                    <img src={o} alt={alt} className="h-7 w-7" />
+                    <img src={u} alt={alt} className="h-7 w-7" />
+                    <img src={r} alt={alt} className="h-7 w-7" />
+                    <img src={a} alt={alt} className="h-7 w-7" />
+                    <img src={b} alt={alt} className="h-7 w-7" />
+                    <img src={h} alt={alt} className="h-7 w-7" />
+                  </div>
                   <div
                     className="hidden h-8 w-auto lg:flex"
                   >
-                    <img src={s} alt={alt} className="h-7 w-7"/>
-                    <img src={o} alt={alt} className="h-7 w-7"/>
-                    <img src={u} alt={alt} className="h-7 w-7"/>
-                    <img src={r} alt={alt} className="h-7 w-7"/>
-                    <img src={a} alt={alt} className="h-7 w-7"/>
-                    <img src={b} alt={alt} className="h-7 w-7"/>
-                    <img src={h} alt={alt} className="h-7 w-7"/>
-                </div>
+                    <img src={s} alt={alt} className="h-7 w-7" />
+                    <img src={o} alt={alt} className="h-7 w-7" />
+                    <img src={u} alt={alt} className="h-7 w-7" />
+                    <img src={r} alt={alt} className="h-7 w-7" />
+                    <img src={a} alt={alt} className="h-7 w-7" />
+                    <img src={b} alt={alt} className="h-7 w-7" />
+                    <img src={h} alt={alt} className="h-7 w-7" />
+                  </div>
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">

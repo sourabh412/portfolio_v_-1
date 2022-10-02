@@ -17,7 +17,7 @@ function Landing() {
                     zIndex: -6,
                     scale: 0
                 }}
-                animate={{
+                whileInView={{
                     opacity: 1,
                     x: -350,
                     scale: 1
@@ -48,7 +48,7 @@ function Landing() {
                     scale: 0,
                     zIndex: -6
                 }}
-                animate={{
+                whileInView={{
                     opacity: 1,
                     x: -350,
                     scale: 1
@@ -72,7 +72,7 @@ function Landing() {
                 zIndex: -6,
                 scale: 0
             }}
-            animate={{
+            whileInView={{
                 opacity: 1,
                 x: 600,
                 scale: 1
@@ -91,7 +91,7 @@ function Landing() {
                 zIndex: -6,
                 scale: 0
             }}
-            animate={{
+            whileInView={{
                 opacity: 1,
                 x: 500,
                 scale: 1
@@ -110,7 +110,7 @@ function Landing() {
                 zIndex: -6,
                 scale: 0
             }}
-            animate={{
+            whileInView={{
                 opacity: 1,
                 x: 300,
                 scale: 1
