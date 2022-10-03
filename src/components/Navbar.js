@@ -1,5 +1,6 @@
 import { Disclosure } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import { motion } from 'framer-motion';
 import s from '../assets/s.svg';
 import o from '../assets/o.svg';
 import u from '../assets/u.svg';
@@ -17,6 +18,31 @@ const navigation = [
   { name: 'Skills', href: '/#skills', current: false },
   { name: 'Contact', href: '/#contact', current: false },
 ]
+
+const outer = {
+  offscreen: {
+    opacity: 0
+  },
+  onscreen: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.2
+    }
+  }
+}
+
+const inner = {
+  offscreen: {
+    opacity: 0
+  },
+  onscreen: {
+    opacity: 1,
+    scale: [0, 1.3, 1],
+    transition: {
+      duration: 0.8
+    }
+  }
+}
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -42,28 +68,34 @@ export default function Navbar() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-between">
                 <div className="flex flex-shrink-0 items-center">
-                  <div
+                  <motion.div
                     className="flex h-8 w-auto lg:hidden"
+                    variants={outer}
+                    initial="offscreen"
+                    animate="onscreen"
                   >
-                    <img src={s} alt={alt} className="h-7 w-7" />
-                    <img src={o} alt={alt} className="h-7 w-7" />
-                    <img src={u} alt={alt} className="h-7 w-7" />
-                    <img src={r} alt={alt} className="h-7 w-7" />
-                    <img src={a} alt={alt} className="h-7 w-7" />
-                    <img src={b} alt={alt} className="h-7 w-7" />
-                    <img src={h} alt={alt} className="h-7 w-7" />
-                  </div>
-                  <div
+                    <motion.img variants={inner} src={s} alt={alt} className="h-7 w-7" />
+                    <motion.img variants={inner} src={o} alt={alt} className="h-7 w-7" />
+                    <motion.img variants={inner} src={u} alt={alt} className="h-7 w-7" />
+                    <motion.img variants={inner} src={r} alt={alt} className="h-7 w-7" />
+                    <motion.img variants={inner} src={a} alt={alt} className="h-7 w-7" />
+                    <motion.img variants={inner} src={b} alt={alt} className="h-7 w-7" />
+                    <motion.img variants={inner} src={h} alt={alt} className="h-7 w-7" />
+                  </motion.div>
+                  <motion.div
                     className="hidden h-8 w-auto lg:flex"
+                    variants={outer}
+                    initial="offscreen"
+                    animate="onscreen"
                   >
-                    <img src={s} alt={alt} className="h-7 w-7" />
-                    <img src={o} alt={alt} className="h-7 w-7" />
-                    <img src={u} alt={alt} className="h-7 w-7" />
-                    <img src={r} alt={alt} className="h-7 w-7" />
-                    <img src={a} alt={alt} className="h-7 w-7" />
-                    <img src={b} alt={alt} className="h-7 w-7" />
-                    <img src={h} alt={alt} className="h-7 w-7" />
-                  </div>
+                    <motion.img variants={inner} src={s} alt={alt} className="h-7 w-7" />
+                    <motion.img variants={inner} src={o} alt={alt} className="h-7 w-7" />
+                    <motion.img variants={inner} src={u} alt={alt} className="h-7 w-7" />
+                    <motion.img variants={inner} src={r} alt={alt} className="h-7 w-7" />
+                    <motion.img variants={inner} src={a} alt={alt} className="h-7 w-7" />
+                    <motion.img variants={inner} src={b} alt={alt} className="h-7 w-7" />
+                    <motion.img variants={inner} src={h} alt={alt} className="h-7 w-7" />
+                  </motion.div>
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">

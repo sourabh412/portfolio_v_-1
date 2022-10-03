@@ -2,38 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    /* background-color: #332940; */
-    background-color: #332940;
-    background: radial-gradient(circle at bottom right, rgb(98, 21, 191) 0%, rgba(51,41,64,1) 100%);
-    background-size: cover;
-    overflow-x: hidden;
+html {
+    scroll-behavior: smooth;
 }
 
-#home{
+body {
+    background-color: #332940;
+    background: radial-gradient(circle at bottom right, rgb(98, 21, 191) 0%, rgba(51, 41, 64, 1) 100%);
+    background-size: cover;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+#home {
     position: relative;
     z-index: -5;
 }
 
-canvas{
+canvas {
     height: 100vh;
     width: 100vw;
 }
 
-.bg-cus{
-    background: hsla(0,0%,100%,.25);
+.bg-cus {
+    background: hsla(0, 0%, 100%, .25);
     backdrop-filter: blur(4px);
 }
 
-#Bg_circle_1{
+#Bg_circle_1 {
     position: absolute;
     height: 500px;
     width: 500px;
-    background: linear-gradient(to right,#188DC9,#E65DC4);
-    right: 200px;
+    background: linear-gradient(to right, #188DC9, #E65DC4);
+    top: 90vh;
+    right: 10px;
+    overflow-x: hidden;
 }
 
-#Bg_circle_2{
+#Bg_circle_2 {
     position: absolute;
     height: 1500px;
     width: 1500px;
@@ -43,4 +49,21 @@ canvas{
     top: 300px;
     border-radius: 50%;
     overflow-x: hidden;
+}
+
+#Bg_circle_3 {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background: linear-gradient(-135deg, rgba(250, 176, 230, 0.279) 0%, rgba(255, 255, 255, 0) 70%);
+    z-index: -11;
+    left: calc(50vw - 750px);
+    top: 100px;
+    right: 100px;
+    border-radius: 50%;
+    overflow-x: hidden;
+}
+
+#about_sm_divs b {
+    color: #D0DCAA;
 }

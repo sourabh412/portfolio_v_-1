@@ -3,7 +3,6 @@ import { motion } from 'framer-motion';
 
 const randborder = {
   offscreen: {
-    y: 100,
     zIndex: -10
   },
   onscreen: {
@@ -24,6 +23,7 @@ function Bg_circles() {
         animate="onscreen"
       ></motion.div>
       <div id="Bg_circle_2"></div>
+      <div id="Bg_circle_3"></div>
     </>
   )
 }
