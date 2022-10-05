@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300;400;500&family=Montserrat:wght@300;400;500&family=Poppins:wght@300;400;500&family=Roboto:wght@300;400;500&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -17,6 +18,10 @@ body {
 #home {
     position: relative;
     z-index: -5;
+}
+
+#sections_main_div section{
+    border-top: 1px dashed gray;
 }
 
 canvas {
@@ -64,6 +69,24 @@ canvas {
     overflow-x: hidden;
 }
 
+#Bg_square_1 {
+    position: absolute;
+    height: 1000px;
+    width: 1000px;
+    background: linear-gradient(-110deg, rgba(250, 176, 230, 0.279) 0%, rgba(255, 255, 255, 0) 50%);
+    /* background: white; */
+    rotate: 30deg;
+    z-index: -11;
+    left: 20vw;
+    top: 300vh;
+    overflow-x: hidden;
+}
+
 #about_sm_divs b {
     color: #D0DCAA;
+}
+
+.proj_active{
+    background: rgb(225, 29, 72);
+    color: white;
 }

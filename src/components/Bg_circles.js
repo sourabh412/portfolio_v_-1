@@ -24,6 +24,7 @@ function Bg_circles() {
       ></motion.div>
       <div id="Bg_circle_2"></div>
       <div id="Bg_circle_3"></div>
+      <div id="Bg_square_1"></div>
     </>
   )
 }

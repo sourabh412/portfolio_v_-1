@@ -20,7 +20,7 @@ const outer = {
 const inner = {
     offscreen: {
         opacity: 0,
-        y: 300
+        y: 100
     },
     onscreen: {
         opacity: 1,
@@ -34,7 +34,7 @@ const inner = {
 const up_anim = {
     offscreen: {
         position: "relative",
-        y: 300,
+        y: 100,
         opacity: 0,
     },
     onscreen: {
@@ -52,13 +52,13 @@ function About() {
                 whileInView="onscreen"
                 transition={{ duration: 0.5 }}
             >
-                <h1 className="text-4xl text-center text-white font-bold ml-4 leading-relaxed">I'm &#12296;<span className="text-5xl text-[#40B6F2]">Sourabh</span> /&#12297;<br />
-                    A 3rd Year <span className="text-5xl text-[#FFCF3F]">Undergrad</span> at <span className="text-5xl text-[#FFCF3F]">BMSCE</span><br />
+                <h1 className="text-4xl text-center text-white font-bold ml-4 leading-relaxed font-poppins tracking-wide">I'm &#12296;<span className="text-5xl text-[#40B6F2] font-gemunu">Sourabh</span> /&#12297;<br />
+                    A 3rd Year <span className="text-5xl text-[#FFCF3F] font-gemunu">Undergrad</span> at <span className="text-5xl text-[#FFCF3F] font-gemunu">BMSCE</span><br />
                     My thoughts on Coding??? 🤔<br />
                     <span className='italic text-gray-300'>"Code is like humor. When you have to explain it, it’s bad."</span>
                 </h1>
             </motion.div>
-            <motion.div id="about_sm_divs" className="flex justify-center mt-4"
+            <motion.div id="about_sm_divs" className="flex flex-wrap justify-center mt-4"
                 variants={outer}
                 initial="offscreen"
                 whileInView="onscreen"
