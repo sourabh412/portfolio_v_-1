@@ -17,7 +17,7 @@ function Sections() {
             <section className='h-screen' id="benchmarks">
                 <Benchmarks />
             </section>
-            <section className='h-screen' id="skills">
+            <section className='h-auto mt-1 py-20' id="skills">
                 <Skills />
             </section>
             <section className='h-screen' id="contact">

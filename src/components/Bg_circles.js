@@ -14,6 +14,19 @@ const randborder = {
   }
 }
 
+const rotate = {
+  offscreen: {},
+  onscreen: {
+    rotateY: 180,
+    rotateZ: 180,
+    rotateX: -90,
+    transition: {
+      yoyo: Infinity,
+      duration: 25
+    }
+  }
+}
+
 function Bg_circles() {
   return (
     <>
@@ -24,7 +37,11 @@ function Bg_circles() {
       ></motion.div>
       <div id="Bg_circle_2"></div>
       <div id="Bg_circle_3"></div>
-      <div id="Bg_square_1"></div>
+      <motion.div id="Bg_square_1"
+        variants={rotate}
+        initial="offscreen"
+        animate="onscreen"
+      ></motion.div>
     </>
   )
 }

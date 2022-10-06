@@ -1,0 +1,57 @@
+[
+    {
+        "id": 462204056,
+        "desc": "A complex web application built using Python, Django, Bootstrap, HTML5, CSS3, JS and PostgreSQL for Db connection. This web app allows the management of student records and proctoring related components of the college record management of students.",
+        "type": "web",
+        "name1": "Proctoring System",
+        "link": "https://bmsce-ise-proc.herokuapp.com/"
+    },
+    {
+        "id": 533645468,
+        "desc": "A web application built using Bootstrap, HTML5, CSS3, PHP, MySQL and Apache Server. This web app depicts the management of documents digitally, documents are stored in database. Similar systems are being used by many apps and companies of which some are GPay and Digilocker.",
+        "type": "web",
+        "name1": "Digital Card Db",
+        "link": null
+    },
+    {
+        "id": 504599992,
+        "desc": "An android app built using Java and XML on Android Studio to perform basic operations of storing, retrieving nad updating the notes using Room Database for storage.",
+        "type": "mobile",
+        "name1": "Notes App",
+        "link": null
+    },
+    {
+        "id": 544319624,
+        "desc": "You seriously gotta pay more Attention if your hoping to know more about my Portfolio 🙃🙃🙃.",
+        "name1": "Personal Portfolio",
+        "link": "/"
+    },
+    {
+        "id": 525797449,
+        "desc": "A simple android application built using Java and XML. Not a working model... just UI.",
+        "type": "mobile",
+        "name1": "Social App",
+        "link": null
+    },
+    {
+        "id": 513605840,
+        "desc": "A simple ThreeJS practice project built using ThreeJS, HTML5 and CSS3. Includes concepts of canvas, geometry formation, altering properties and orbitcontrols in ThreeJS.",
+        "type": "web",
+        "name1": "Simple ThreeJS Page",
+        "link": null
+    },
+    {
+        "id": 514590092,
+        "desc": "A simple ThreeJS practice project built using ThreeJS, HTML5 and CSS3. Includes concepts of canvas, geometry formation, altering properties, orbitcontrols, animations and custom material in ThreeJS.",
+        "type": "web",
+        "name1": "Simple ThreeJS Page",
+        "link": null
+    },
+    {
+        "id": 542227891,
+        "desc": "A simple web application built using HTML5, Bootstrap,CSS3, PHP, MySQL, Apache Server and Google's OAuth2 api for login. This web app is a simpler version of currently available Google Classroom, that allows the creation and management of a virual classroom.",
+        "type": "web",
+        "name1": "Virtual Classroom",
+        "link": null
+    }
+]

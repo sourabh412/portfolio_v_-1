@@ -8,10 +8,9 @@ import alt from "../assets/alt.svg";
 function Landing() {
     return (
         <>
-            <motion.div className="h-auto w-72 p-6 mr-10 bg-white rounded-2xl md:top-14 shadow-cus"
+            <motion.div className="absolute h-auto w-72 p-6 mr-10 bg-white rounded-2xl md:top-14 shadow-cus"
                 initial={{
                     opacity: 0,
-                    position: "absolute",
                     left: "35vw",
                     top: "30vh",
                     zIndex: -6,
