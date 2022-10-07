@@ -18,7 +18,7 @@ const rotate = {
   offscreen: {},
   onscreen: {
     rotateY: 180,
-    rotateZ: 180,
+    rotateZ: [0,180,360],
     rotateX: -90,
     transition: {
       yoyo: Infinity,
@@ -37,7 +37,17 @@ function Bg_circles() {
       ></motion.div>
       <div id="Bg_circle_2"></div>
       <div id="Bg_circle_3"></div>
+      <motion.div className='rounded-full' id="Bg_circle_4"
+        variants={randborder}
+        initial="offscreen"
+        animate="onscreen"
+      ></motion.div>
       <motion.div id="Bg_square_1"
+        variants={rotate}
+        initial="offscreen"
+        animate="onscreen"
+      ></motion.div>
+      <motion.div id="Bg_triangle_1"
         variants={rotate}
         initial="offscreen"
         animate="onscreen"

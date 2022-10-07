@@ -13,7 +13,8 @@ module.exports = {
       'gemunu':['Gemunu Libre'],
       'montserrat':['Montserrat'],
       'poppins':['Poppins'],
-      'roboto':['Roboto']
+      'roboto':['Roboto'],
+      'dmsans':['DM Sans']
     }
   },
   plugins: [],

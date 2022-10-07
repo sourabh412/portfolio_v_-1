@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300;400;500&family=Montserrat:wght@300;400;500&family=Poppins:wght@300;400;500&family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Gemunu+Libre:wght@300;400;500&family=Montserrat:wght@300;400;500&family=Poppins:wght@300;400;500&family=Roboto:wght@300;400;500&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -39,7 +39,7 @@ canvas {
     height: 500px;
     width: 500px;
     background: linear-gradient(to right, #188DC9, #E65DC4);
-    top: 90vh;
+    top: 750vh;
     right: 10px;
     overflow-x: hidden;
 }
@@ -69,6 +69,17 @@ canvas {
     overflow-x: hidden;
 }
 
+#Bg_circle_4 {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background: linear-gradient(135deg, #188DC9, #E65DC4);
+    top: 500vh;
+    left: 50px;
+    overflow-x: hidden;
+    z-index: -11;
+}
+
 #Bg_square_1 {
     position: absolute;
     height: 1000px;
@@ -79,6 +90,18 @@ canvas {
     z-index: -11;
     left: 20vw;
     top: 300vh;
+    overflow-x: hidden;
+}
+
+#Bg_triangle_1 {
+    position: absolute;
+	width: 800px;
+	height: 800px;
+    right: 20vw;
+    top: 600vh;
+    transform: skew(30deg);
+    background: linear-gradient(-45deg, rgba(250, 176, 230, 0.279) 0%, rgba(255, 255, 255, 0) 50%);
+    z-index: -11;
     overflow-x: hidden;
 }
 

@@ -20,7 +20,7 @@ function Sections() {
             <section className='h-auto mt-1 py-20' id="skills">
                 <Skills />
             </section>
-            <section className='h-screen' id="contact">
+            <section className='h-auto mt-1 py-20' id="contact">
                 <Contact />
             </section>
         </div>
