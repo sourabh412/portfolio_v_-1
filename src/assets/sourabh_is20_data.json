@@ -1,0 +1,810 @@
+{
+    "username": "sourabh_is20",
+    "email": "sourabh.is20@bmsce.ac.in",
+    "school": "BMSCE, Bangalore (BMS College of Engineering)",
+    "country": "India",
+    "name": "Sourabh Prathviraj Hiremath Information Science",
+    "city": "Bengaluru",
+    "website": "",
+    "short_bio": "",
+    "job_title": "",
+    "personal_first_name": "Sourabh Prathviraj Hiremath Information",
+    "personal_last_name": "Science",
+    "graduation_year": "2024",
+    "graduation_month": "5",
+    "timezone": "Asia/Calcutta",
+    "is_professional": false,
+    "hackos": 815,
+    "phone": {
+        "country_code": "+91",
+        "number": "7204593495"
+    },
+    "favorite_challenges": [],
+    "challenges_created": [],
+    "other_emails": [
+        "hiremathsourabh12@gmail.com"
+    ],
+    "all_schools": [
+        {
+            "name": "BMSCE, Bangalore (BMS College of Engineering)",
+            "program": "",
+            "degree": "BE"
+        }
+    ],
+    "snippets": [],
+    "submissions": [
+        {
+            "contest": "JAVA Program 1662437682",
+            "challenge": "Java Inheritance II",
+            "code": "//Write your code here\nclass Arithmetic{\n    public int add(int a, int b){\n        return a+b;\n    }\n}\n\nclass Adder extends Arithmetic{\n    \n}",
+            "score": 1.0,
+            "language": "java"
+        },
+        {
+            "contest": "JAVA Program 1662437682",
+            "challenge": "Java Subarray",
+            "code": "import java.io.*;\nimport java.util.*;\nimport java.text.*;\nimport java.math.*;\nimport java.util.regex.*;\n\npublic class Solution {\n\n    public static void main(String[] args) {\n        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */\n    Scanner sc=new Scanner(System.in);\n    int n=sc.nextInt();\n    int[] array1= new int[n];\n    for(int i=0;i\u003cn;i++){\n        array1[i]=sc.nextInt();\n    }\n    int count=0;\n    for(int j=0;j\u003cn;j++){\n        int sum=0;\n        for(int k=j;k\u003cn;k++){\n            sum=array1[k]+sum;\n            if(sum\u003c0){\n                count++;\n            }\n        }\n    }\n    System.out.println(count);\n    }\n}",
+            "score": 1.0,
+            "language": "java"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Say \"Hello, World!\" With Python",
+            "code": "if __name__ == '__main__':\n    print (\"Hello, World!\")\n",
+            "score": 1.0,
+            "language": "pypy"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Python If-Else",
+            "code": "#!/bin/python\n\nimport math\nimport os\nimport random\nimport re\nimport sys\n\n\n\nif __name__ == '__main__':\n    n = int(raw_input().strip())\n    if n%2 != 0:\n        print(\"Weird\")\n    else:\n        if n in range(2,6):\n            print(\"Not Weird\")\n        elif n in range(6,21):\n            print(\"Weird\")\n        else:\n            print(\"Not Weird\")\n",
+            "score": 1.0,
+            "language": "pypy"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Arithmetic Operators",
+            "code": "if __name__ == '__main__':\n    a = int(raw_input())\n    b = int(raw_input())\n    print(a+b)\n    print(a-b)\n    print(a*b)\n",
+            "score": 1.0,
+            "language": "pypy"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Python: Division",
+            "code": "from __future__ import division\n\nif __name__ == '__main__':\n    a = int(raw_input())\n    b = int(raw_input())\n    print(a//b)\n    print(a/b)\n",
+            "score": 1.0,
+            "language": "pypy"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Loops",
+            "code": "if __name__ == '__main__':\n    n = int(raw_input())\n    for x in range(n):\n        print(x*x)\n",
+            "score": 1.0,
+            "language": "pypy"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Write a function",
+            "code": "def is_leap(year):\n    leap = False\n    \n    if year%400 == 0:\n        leap = True\n    elif year%4 == 0 and year%100 != 0: \n        leap = True\n    else:\n        leap = False\n    return leap\n\n",
+            "score": 1.0,
+            "language": "pypy"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Print Function",
+            "code": "from __future__ import print_function\n\nif __name__ == '__main__':\n    n = int(raw_input())\n    out = \"\"\n    for x in range(1,n+1):\n        out += str(x)\n    print(out)\n",
+            "score": 1.0,
+            "language": "pypy"
+        },
+        {
+            "contest": "Master",
+            "challenge": "List Comprehensions",
+            "code": "if __name__ == '__main__':\n    x = int(input())\n    y = int(input())\n    z = int(input())\n    n = int(input())\n    l = []\n    for a in range(0,x+1):\n        for b in range(0,y+1):\n            for c in range(0,z+1):\n                if a+b+c != n:\n                    l.append([a,b,c])\n    print(l)\n",
+            "score": 1.0,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Find the Runner-Up Score!  ",
+            "code": "if __name__ == '__main__':\n    n = int(input())\n    arr = map(int, input().split())\n    print(sorted(list(set(arr)))[-2])\n",
+            "score": 1.0,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Nested Lists",
+            "code": "Result =[]\nscorelist = []\n\nif __name__ == '__main__':\n    for _ in range(int(input())):\n        name = input()\n        score = float(input())\n        Result+=[[name,score]]\n        scorelist+=[score]\n    b=sorted(list(set(scorelist)))[1] \n\n    for a,c in sorted(Result):\n        if c==b:\n            print(a)\n",
+            "score": 1.0,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Finding the percentage",
+            "code": "if __name__ == '__main__':\n    n = int(input())\n    student_marks = {}\n    for _ in range(n):\n        name, *line = input().split()\n        scores = list(map(float, line))\n        student_marks[name] = scores\n    query_name = input()\n    sum = 0\n    for x in student_marks[query_name]:\n        sum += x\n    print(\"{:.2f}\".format(sum/3))\n",
+            "score": 1.0,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Validating phone numbers",
+            "code": "# Enter your code here. Read input from STDIN. Print output to STDOUT\nimport re\nn = int(input())\nnos = []\nfor i in range(n):\n    nos.append(str(input()))\nfor x in nos:\n    if len(x)==10 and (x[0]=='7' or x[0]=='8' or x[0]=='9'):\n        if re.search('[a-zA-Z]',x):\n            print(\"NO\")\n        else:\n            print(\"YES\")\n    else:\n        print(\"NO\")\n",
+            "score": 1.0,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Validating phone numbers",
+            "code": "# Enter your code here. Read input from STDIN. Print output to STDOUT\nimport re\nn = int(input())\nnos = []\nfor i in range(n):\n    nos.append(str(input()))\nfor x in nos:\n    if len(x)==10 and (x[0]=='7' or x[0]=='8' or x[0]=='9'):\n        if re.search('[a-zA-Z]',x):\n            print(\"NO\")\n        else:\n            print(\"YES\")\n    else:\n        print(\"NO\")\n",
+            "score": 1.0,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Lists",
+            "code": "if __name__ == '__main__':\n    N = int(input())\n    l =  []\n    for i in range(N):\n        x = str(input())\n        if \"insert\" in x:\n            y = x.split(\" \")\n            l.insert(int(y[-2]),int(y[-1]))\n        elif \"append\" in x:\n            y = x.split(\" \")\n            l.append(int(y[-1]))\n        elif \"remove\" in x:\n            y = x.split(\" \")\n            l.remove(int(y[-1]))\n        elif \"sort\" in x:\n            l.sort()\n        elif \"pop\" in x:\n            l.pop()\n        elif \"reverse\" in x:\n            l.reverse()\n        else:\n            print(l)\n",
+            "score": 1.0,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Tuples ",
+            "code": "if __name__ == '__main__':\n    n = int(raw_input())\n    integer_list = map(int, raw_input().split())\n    i = tuple(integer_list)\n    print(hash(i))\n",
+            "score": 1.0,
+            "language": "pypy"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Validating Roman Numerals",
+            "code": "regex_pattern = r\"\"\t# Do not delete 'r'.\n\nthousand = 'M{0,3}'\nhundred = '(C[MD]|D?C{0,3})'\nten = '(X[CL]|L?X{0,3})'\ndigit = '(I[VX]|V?I{0,3})'\nregex_pattern = r\"%s%s%s%s$\" % (thousand, hundred, ten, digit)\n\n",
+            "score": 1.0,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "sWAP cASE",
+            "code": "def swap_case(s):\n    s = s.swapcase()\n    return s\n\n",
+            "score": 1.0,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "String Split and Join",
+            "code": "def split_and_join(line):\n    arr = line.split()\n    temp = \"\"\n    for x in arr:\n        temp = temp + x +\"-\"\n    return temp[:-1]\n\n",
+            "score": 1.0,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "What's Your Name?",
+            "code": "#\n# Complete the 'print_full_name' function below.\n#\n# The function is expected to return a STRING.\n# The function accepts following parameters:\n#  1. STRING first\n#  2. STRING last\n#\n\ndef print_full_name(first, last):\n    print(f\"Hello {first} {last}! You just delved into python.\")\n\n",
+            "score": 1.0,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Mutations",
+            "code": "def mutate_string(string, position, character):\n    return string[:position] + character + string[position+1:]\n\n",
+            "score": 1.0,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Find a string",
+            "code": "def count_substring(string, sub_string):\n    count = 0\n    for i in range(len(string)-len(sub_string)+1):\n        if string[i:i+len(sub_string)] == sub_string:\n            count += 1\n    return count\n\n",
+            "score": 1.0,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Revising the Select Query I",
+            "code": "SELECT * FROM CITY WHERE POPULATION \u003e 100000 AND COUNTRYCODE='USA';",
+            "score": 1.0,
+            "language": "mysql"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Revising the Select Query II",
+            "code": "SELECT NAME FROM CITY WHERE POPULATION \u003e 120000 AND COUNTRYCODE='USA';",
+            "score": 1.0,
+            "language": "mysql"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Select All",
+            "code": "SELECT * FROM CITY;",
+            "score": 1.0,
+            "language": "mysql"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Select By ID",
+            "code": "SELECT * FROM CITY WHERE ID=1661;",
+            "score": 1.0,
+            "language": "mysql"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Japanese Cities' Attributes",
+            "code": "SELECT * FROM CITY WHERE COUNTRYCODE='JPN';",
+            "score": 1.0,
+            "language": "mysql"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Japanese Cities' Attributes",
+            "code": "SELECT * FROM CITY WHERE COUNTRYCODE='JPN';",
+            "score": 1.0,
+            "language": "mysql"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Japanese Cities' Names",
+            "code": "SELECT NAME FROM CITY WHERE COUNTRYCODE='JPN';",
+            "score": 1.0,
+            "language": "mysql"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Weather Observation Station 1",
+            "code": "SELECT CITY,STATE FROM STATION;",
+            "score": 1.0,
+            "language": "mysql"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Weather Observation Station 3",
+            "code": "SELECT DISTINCT CITY FROM STATION WHERE ID%2=0;",
+            "score": 1.0,
+            "language": "mysql"
+        },
+        {
+            "contest": "Master",
+            "challenge": "String Validators",
+            "code": "if __name__ == '__main__':\n    s = input()\n    t = {\n        1:False,\n        2:False,\n        3:False,\n        4:False,\n        5:False\n    }\n    count = 0\n    for x in s:\n        if count == 5:\n            break\n        if x.isalnum():\n            if t[1] == False:\n                t[1] = True\n                count +=1\n        if x.isalnum():\n            if t[2] == False:\n                t[2] = True\n                count +=1\n        if x.isalnum():\n            if t[3] == False:\n                t[3] = True\n                count +=1\n        if x.isalnum():\n            if t[4] == False:\n                t[4] = True\n                count +=1\n        if x.isalnum():\n            if t[5] == False:\n                t[5] = True\n                count +=1      \n                \n    for x in t:\n        print(t[x])\n",
+            "score": 0.4,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "String Validators",
+            "code": "if __name__ == '__main__':\n    s = input()\n    t = {\n        1:False,\n        2:False,\n        3:False,\n        4:False,\n        5:False\n    }\n    count = 0\n    for x in s:\n        if count == 5:\n            break\n        if x.isalnum():\n            if t[1] == False:\n                t[1] = True\n                count +=1\n        if x.isalpha():\n            if t[2] == False:\n                t[2] = True\n                count +=1\n        if x.isdigit():\n            if t[3] == False:\n                t[3] = True\n                count +=1\n        if x.islower():\n            if t[4] == False:\n                t[4] = True\n                count +=1\n        if x.isupper():\n            if t[5] == False:\n                t[5] = True\n                count +=1      \n                \n    for x in t:\n        print(t[x])\n",
+            "score": 1.0,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Text Alignment",
+            "code": "#Replace all ______ with rjust, ljust or center. \n\nthickness = int(input()) #This must be an odd number\nc = 'H'\n\n#Top Cone\nfor i in range(thickness):\n    print((c*i).rjust(thickness-1)+c+(c*i).ljust(thickness-1))\n\n#Top Pillars\nfor i in range(thickness+1):\n    print((c*thickness).center(thickness*2)+(c*thickness).center(thickness*6))\n\n#Middle Belt\nfor i in range((thickness+1)//2):\n    print((c*thickness*5).center(thickness*6))    \n\n#Bottom Pillars\nfor i in range(thickness+1):\n    print((c*thickness).center(thickness*2)+(c*thickness).center(thickness*6))    \n\n#Bottom Cone\nfor i in range(thickness):\n    print(((c*(thickness-i-1)).rjust(thickness)+c+(c*(thickness-i-1)).ljust(thickness)).rjust(thickness*6))\n",
+            "score": 1.0,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Text Wrap",
+            "code": "\n\ndef wrap(string, max_width):\n    i=0\n    while(i \u003c len(string)):\n        if (i+1)%(max_width+1) == 0:\n            string = string[:i] + \"\\n\" + string[i:]\n        i += 1\n    return string\n\n",
+            "score": 1.0,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Text Wrap",
+            "code": "\n\ndef wrap(string, max_width):\n    i=0\n    while(i \u003c len(string)):\n        if (i+1)%(max_width+1) == 0:\n            string = string[:i] + \"\\n\" + string[i:]\n        i += 1\n    return string\n\n",
+            "score": 1.0,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "String Formatting",
+            "code": "def print_formatted(number):\n    l1 = len(bin(number)[2:])\n    for i in range(1,number+1):\n        print(str(i).rjust(l1,' '),end=\" \")\n        print(oct(i)[2:].rjust(l1,' '),end=\" \")\n        print(((hex(i)[2:]).upper()).rjust(l1,' '),end=\" \")\n        print(bin(i)[2:].rjust(l1,' '),end=\" \")\n        print(\"\")\n        \n",
+            "score": 1.0,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Capitalize!",
+            "code": "\n\n# Complete the solve function below.\ndef solve(s):\n    temp = s.split(\" \")\n    s = \"\"\n    for x in temp:\n        x = x.capitalize()\n        s += x + \" \"\n    return s[:-1]\n        \n",
+            "score": 1.0,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Weather Observation Station 4",
+            "code": "/*\nEnter your query here.\n*/\nselect (count(CITY)-count(distinct CITY)) from STATION;",
+            "score": 1.0,
+            "language": "mysql"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Let's Echo",
+            "code": "echo \"HELLO\"\n",
+            "score": 1.0,
+            "language": "bash"
+        },
+        {
+            "contest": "Master",
+            "challenge": "\"Hello World!\" in C",
+            "code": "#include \u003cstdio.h\u003e\n#include \u003cstring.h\u003e\n#include \u003cmath.h\u003e\n#include \u003cstdlib.h\u003e\n\nint main() \n{\n\t\n    char s[100];\n    scanf(\"%[^\\n]%*c\", \u0026s);\n  \t\n    printf(\"Hello, World!\\n\");\n    printf(\"%s\",s);    \n    return 0;\n}\n",
+            "score": 1.0,
+            "language": "c"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Welcome to Java!",
+            "code": "public class Solution {\n\n    public static void main(String[] args) {\n        System.out.println(\"Hello, World.\\nHello, Java.\");\n    }\n}\n",
+            "score": 1.0,
+            "language": "java"
+        },
+        {
+            "contest": "Master",
+            "challenge": " Java Stdin and Stdout I",
+            "code": "import java.util.*;\n\npublic class Solution {\n\n    public static void main(String[] args) {\n        Scanner scan = new Scanner(System.in);\n        int a = scan.nextInt();\n        int b = scan.nextInt();\n        int c = scan.nextInt();\n        // Complete this line\n        // Complete this line\n\n        System.out.println(a);\n        System.out.println(b);\n        System.out.println(c);\n        // Complete this line\n        // Complete this line\n    }\n}\n",
+            "score": 1.0,
+            "language": "java"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Java If-Else",
+            "code": "import java.io.*;\nimport java.math.*;\nimport java.security.*;\nimport java.text.*;\nimport java.util.*;\nimport java.util.concurrent.*;\nimport java.util.regex.*;\n\npublic class Solution {\n\n\n\n    private static final Scanner scanner = new Scanner(System.in);\n\n    public static void main(String[] args) {\n        int N = scanner.nextInt();\n        scanner.skip(\"(\\r\\n|[\\n\\r\\u2028\\u2029\\u0085])?\");\n        if (N%2!=0) {\n            System.out.println(\"Weird\");\n        }else{\n            if (N\u003e1 \u0026\u0026 N\u003c6) {\n                System.out.println(\"Not Weird\");\n            }else if(N\u003e5 \u0026\u0026 N\u003c21){\n                System.out.println(\"Weird\");\n            }else{\n                System.out.println(\"Not Weird\");\n            }\n        }\n        scanner.close();\n    }\n}\n",
+            "score": 1.0,
+            "language": "java"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Java Stdin and Stdout II",
+            "code": "import java.util.Scanner;\n\npublic class Solution {\n\n    public static void main(String[] args) {\n        Scanner scan = new Scanner(System.in);\n        int i = scan.nextInt();\n        double d = scan.nextDouble();\n        scan.nextLine();\n        String s = scan.nextLine();\n\n        // Write your code here.\n\n        System.out.println(\"String: \" + s);\n        System.out.println(\"Double: \" + d);\n        System.out.println(\"Int: \" + i);\n    }\n}\n",
+            "score": 1.0,
+            "language": "java"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Java Output Formatting",
+            "code": "import java.util.Scanner;\n\npublic class Solution {\n\n    public static void main(String[] args) {\n            Scanner sc=new Scanner(System.in);\n            System.out.println(\"================================\");\n            for(int i=0;i\u003c3;i++){\n                String s1=sc.next();\n                int x=sc.nextInt();\n                System.out.printf( \"%-15s%03d%n\",s1,x);\n            }\n            System.out.println(\"================================\");\n\n    }\n}\n\n\n\n",
+            "score": 1.0,
+            "language": "java"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Java Loops I",
+            "code": "import java.io.*;\nimport java.math.*;\nimport java.security.*;\nimport java.text.*;\nimport java.util.*;\nimport java.util.concurrent.*;\nimport java.util.regex.*;\n\n\n\npublic class Solution {\n    public static void main(String[] args) throws IOException {\n        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));\n\n        int N = Integer.parseInt(bufferedReader.readLine().trim());\n        for (int i = 1; i \u003c 11; i++) {\n            System.out.println(N+\" x \"+i+\" = \"+N*i);\n        }\n        bufferedReader.close();\n    }\n}\n",
+            "score": 1.0,
+            "language": "java"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Java End-of-file",
+            "code": "import java.io.*;\nimport java.util.*;\nimport java.text.*;\nimport java.math.*;\nimport java.util.regex.*;\n\npublic class Solution {\n\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        int i =1;\n        while (true) {\n            try{\n                String a = sc.nextLine();    \n                System.out.println(i + \" \" + a);\n            } catch(Exception e){\n                break;\n            }\n        i++;\n        }\n    }\n}\n",
+            "score": 1.0,
+            "language": "java"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Looping and Skipping",
+            "code": "for ((i=1;i\u003c100;i++))\ndo\nif [ `expr $i % 2` -eq 1 ]\nthen\necho $i\nfi\ndone\n",
+            "score": 1.0,
+            "language": "bash"
+        },
+        {
+            "contest": "Master",
+            "challenge": "A Personalized Echo",
+            "code": "read name\necho \"Welcome $name\"\n",
+            "score": 1.0,
+            "language": "bash"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Solve Me First",
+            "code": "\n\ndef solveMeFirst(a,b):\n\treturn a+b\n\n\nnum1 = int(input())\nnum2 = int(input())\nres = solveMeFirst(num1,num2)\nprint(res)\n",
+            "score": 1.0,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Simple Array Sum",
+            "code": "#!/bin/python3\n\nimport math\nimport os\nimport random\nimport re\nimport sys\n\n#\n# Complete the 'simpleArraySum' function below.\n#\n# The function is expected to return an INTEGER.\n# The function accepts INTEGER_ARRAY ar as parameter.\n#\n\ndef simpleArraySum(ar):\n    sum = 0\n    for x in ar:\n        sum += x\n    return sum\n\nif __name__ == '__main__':\n    fptr = open(os.environ['OUTPUT_PATH'], 'w')\n\n    ar_count = int(input().strip())\n\n    ar = list(map(int, input().rstrip().split()))\n\n    result = simpleArraySum(ar)\n\n    fptr.write(str(result) + '\\n')\n\n    fptr.close()\n",
+            "score": 1.0,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Compare the Triplets",
+            "code": "#!/bin/python3\n\nimport math\nimport os\nimport random\nimport re\nimport sys\n\n#\n# Complete the 'compareTriplets' function below.\n#\n# The function is expected to return an INTEGER_ARRAY.\n# The function accepts following parameters:\n#  1. INTEGER_ARRAY a\n#  2. INTEGER_ARRAY b\n#\n\ndef compareTriplets(a, b):\n    z = [0,0]\n    for i in range(len(a)):\n        if a[i]\u003eb[i]:\n            z[0] += 1\n        elif b[i]\u003ea[i]:\n            z[1] += 1\n            \n    return z\n\nif __name__ == '__main__':\n    fptr = open(os.environ['OUTPUT_PATH'], 'w')\n\n    a = list(map(int, input().rstrip().split()))\n\n    b = list(map(int, input().rstrip().split()))\n\n    result = compareTriplets(a, b)\n\n    fptr.write(' '.join(map(str, result)))\n    fptr.write('\\n')\n\n    fptr.close()\n",
+            "score": 1.0,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "A Very Big Sum",
+            "code": "#!/bin/python3\n\nimport math\nimport os\nimport random\nimport re\nimport sys\n\n#\n# Complete the 'aVeryBigSum' function below.\n#\n# The function is expected to return a LONG_INTEGER.\n# The function accepts LONG_INTEGER_ARRAY ar as parameter.\n#\n\ndef aVeryBigSum(ar):\n    sum = 0\n    for x in ar:\n        sum += x\n    return sum\n\nif __name__ == '__main__':\n    fptr = open(os.environ['OUTPUT_PATH'], 'w')\n\n    ar_count = int(input().strip())\n\n    ar = list(map(int, input().rstrip().split()))\n\n    result = aVeryBigSum(ar)\n\n    fptr.write(str(result) + '\\n')\n\n    fptr.close()\n",
+            "score": 1.0,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Diagonal Difference",
+            "code": "#!/bin/python3\n\nimport math\nimport os\nimport random\nimport re\nimport sys\n\n#\n# Complete the 'diagonalDifference' function below.\n#\n# The function is expected to return an INTEGER.\n# The function accepts 2D_INTEGER_ARRAY arr as parameter.\n#\n\ndef diagonalDifference(arr):\n    d1 = 0\n    d2 = 0\n    for i in range(len(arr[0])):\n        for j in range(len(arr[0])):\n            if i == j:\n                d1 += arr[i][j]\n            if i+j == len(arr[0])-1:\n                d2 += arr[i][j]\n    return abs(d1-d2)\n        \nif __name__ == '__main__':\n    fptr = open(os.environ['OUTPUT_PATH'], 'w')\n\n    n = int(input().strip())\n\n    arr = []\n\n    for _ in range(n):\n        arr.append(list(map(int, input().rstrip().split())))\n\n    result = diagonalDifference(arr)\n\n    fptr.write(str(result) + '\\n')\n\n    fptr.close()\n",
+            "score": 1.0,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Plus Minus",
+            "code": "#!/bin/python3\n\nimport math\nimport os\nimport random\nimport re\nimport sys\n\n#\n# Complete the 'plusMinus' function below.\n#\n# The function accepts INTEGER_ARRAY arr as parameter.\n#\n\ndef plusMinus(arr):\n    p = 0\n    n = 0\n    z = 0\n    for x in arr:\n        if x \u003e 0:\n            p += 1\n        elif x \u003c 0:\n            n += 1\n        else:\n            z += 1\n    print(p/len(arr))\n    print(n/len(arr))\n    print(z/len(arr))\n\nif __name__ == '__main__':\n    n = int(input().strip())\n\n    arr = list(map(int, input().rstrip().split()))\n\n    plusMinus(arr)\n",
+            "score": 1.0,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Staircase",
+            "code": "#!/bin/python3\n\nimport math\nimport os\nimport random\nimport re\nimport sys\n\n#\n# Complete the 'staircase' function below.\n#\n# The function accepts INTEGER n as parameter.\n#\n\ndef staircase(n):\n    for i in range(1,n+1):\n        t = \"\"\n        for j in range(1,i+1):\n            t += \"#\"\n        print(t.rjust(n))\n        \n\nif __name__ == '__main__':\n    n = int(input().strip())\n\n    staircase(n)\n",
+            "score": 1.0,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Weather Observation Station 5",
+            "code": "/*\nEnter your query here.\n*/\nselect CITY,LENGTH(CITY) from STATION order by Length(CITY), CITY limit 1; \nselect CITY,LENGTH(CITY) from STATION order by -Length(CITY), CITY limit 1;",
+            "score": 1.0,
+            "language": "mysql"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Weather Observation Station 6",
+            "code": "/*\nEnter your query here.\n*/\nSELECT CITY FROM STATION WHERE CITY REGEXP '^a|^e|^i|^o|^u';",
+            "score": 1.0,
+            "language": "mysql"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Weather Observation Station 7",
+            "code": "/*\nEnter your query here.\n*/\nSELECT DISTINCT CITY FROM STATION WHERE CITY REGEXP 'a$|e$|i$|o$|u$';",
+            "score": 1.0,
+            "language": "mysql"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Weather Observation Station 8",
+            "code": "/*\nEnter your query here.\n*/\nSELECT CITY FROM STATION WHERE CITY REGEXP '^a|^e|^i|^o|^u' AND CITY REGEXP 'a$|e$|i$|o$|u$'; ",
+            "score": 1.0,
+            "language": "mysql"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Weather Observation Station 9",
+            "code": "/*\nEnter your query here.\n*/\nSELECT DISTINCT CITY FROM STATION WHERE CITY NOT REGEXP '^a|^e|^i|^o|^u';",
+            "score": 1.0,
+            "language": "mysql"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Weather Observation Station 10",
+            "code": "/*\nEnter your query here.\n*/\nSELECT DISTINCT CITY FROM STATION WHERE CITY NOT REGEXP 'a$|e$|i$|o$|u$';",
+            "score": 1.0,
+            "language": "mysql"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Weather Observation Station 11",
+            "code": "/*\nEnter your query here.\n*/\nSELECT DISTINCT CITY FROM STATION WHERE CITY NOT REGEXP 'a$|e$|i$|o$|u$' OR CITY NOT REGEXP '^a|^e|^i|^o|^u';",
+            "score": 1.0,
+            "language": "mysql"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Weather Observation Station 12",
+            "code": "/*\nEnter your query here.\n*/\nSELECT DISTINCT CITY FROM STATION WHERE CITY NOT REGEXP 'a$|e$|i$|o$|u$' AND CITY NOT REGEXP '^a|^e|^i|^o|^u';",
+            "score": 1.0,
+            "language": "mysql"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Higher Than 75 Marks",
+            "code": "/*\nEnter your query here.\n*/\nSELECT NAME FROM STUDENTS WHERE MARKS\u003e75 ORDER BY RIGHT(NAME,3) ASC, ID ASC;",
+            "score": 1.0,
+            "language": "mysql"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Employee Names",
+            "code": "/*\nEnter your query here.\n*/\nSELECT NAME FROM EMPLOYEE ORDER BY NAME ASC;",
+            "score": 1.0,
+            "language": "mysql"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Employee Salaries",
+            "code": "/*\nEnter your query here.\n*/\nSELECT NAME FROM EMPLOYEE WHERE SALARY\u003e2000 AND MONTHS\u003c10;",
+            "score": 1.0,
+            "language": "mysql"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Revising Aggregations - The Count Function",
+            "code": "SELECT COUNT(NAME) FROM CITY WHERE POPULATION\u003e100000;",
+            "score": 1.0,
+            "language": "mysql"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Revising Aggregations - The Sum Function",
+            "code": "SELECT SUM(POPULATION) FROM CITY WHERE DISTRICT='California';",
+            "score": 1.0,
+            "language": "mysql"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Revising Aggregations - Averages",
+            "code": "SELECT AVG(POPULATION) FROM CITY WHERE DISTRICT='California';",
+            "score": 1.0,
+            "language": "mysql"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Average Population",
+            "code": "SELECT ROUND(AVG(POPULATION)) FROM CITY;",
+            "score": 1.0,
+            "language": "mysql"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Japan Population",
+            "code": "SELECT SUM(POPULATION) FROM CITY WHERE COUNTRYCODE='JPN';",
+            "score": 1.0,
+            "language": "mysql"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Population Density Difference",
+            "code": "SELECT (MAX(POPULATION)-MIN(POPULATION)) FROM CITY;",
+            "score": 1.0,
+            "language": "mysql"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Java Loops II",
+            "code": "import java.util.*;\nimport java.io.*;\n\nclass Solution{\n    public static void main(String []argh){\n        Scanner in = new Scanner(System.in);\n        int t=in.nextInt();\n        for(int i=0;i\u003ct;i++){\n            int a = in.nextInt();\n            int b = in.nextInt();\n            int n = in.nextInt();\n            int Tn = a;\n            for(int j=0;j\u003cn;j++){\n                Tn += Math.pow(2,j)*b;\n                System.out.print(Tn + \" \");\n            }\n            System.out.println();\n        }\n        in.close();\n    }\n}\n",
+            "score": 1.0,
+            "language": "java"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Java Datatypes",
+            "code": "import java.util.*;\nimport java.io.*;\n\n\n\nclass Solution{\n    public static void main(String []argh)\n    {\n\n\n\n        Scanner sc = new Scanner(System.in);\n        int t=sc.nextInt();\n\n        for(int i=0;i\u003ct;i++)\n        {\n\n            try\n            {\n                long x=sc.nextLong();\n                System.out.println(x+\" can be fitted in:\");\n                if(x\u003e=-128 \u0026\u0026 x\u003c=127)System.out.println(\"* byte\");\n                if(x\u003e=-32768 \u0026\u0026 x\u003c=32768)System.out.println(\"* short\");\n                if(x\u003e=-Math.pow(2,31) \u0026\u0026 x\u003c=Math.pow(2,31))System.out.println(\"* int\");\n                if(x\u003e=-Math.pow(2,63) \u0026\u0026 x\u003c=Math.pow(2,63))System.out.println(\"* long\");\n                \n            }\n            catch(Exception e)\n            {\n                System.out.println(sc.next()+\" can't be fitted anywhere.\");\n            }\n\n        }\n    }\n}\n\n\n\n",
+            "score": 0.333333333333,
+            "language": "java"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Java Datatypes",
+            "code": "import java.util.*;\nimport java.io.*;\n\n\n\nclass Solution{\n    public static void main(String []argh)\n    {\n\n\n\n        Scanner sc = new Scanner(System.in);\n        int t=sc.nextInt();\n\n        for(int i=0;i\u003ct;i++)\n        {\n\n            try\n            {\n                long x=sc.nextLong();\n                System.out.println(x+\" can be fitted in:\");\n                if (x \u003e= Byte.MIN_VALUE \u0026\u0026 x \u003c= Byte.MAX_VALUE) {\n                    System.out.println(\"* byte\");\n                }\n                if (x \u003e= Short.MIN_VALUE \u0026\u0026 x \u003c= Short.MAX_VALUE) {\n                    System.out.println(\"* short\");\n                }\n                if (x \u003e= Integer.MIN_VALUE \u0026\u0026 x \u003c= Integer.MAX_VALUE) {\n                    System.out.println(\"* int\");\n                }\n                if (x \u003e= Long.MIN_VALUE \u0026\u0026 x \u003c= Long.MAX_VALUE) {\n                    System.out.println(\"* long\");\n                }\n            }\n            catch(Exception e)\n            {\n                System.out.println(sc.next()+\" can't be fitted anywhere.\");\n            }\n\n        }\n    }\n}\n\n\n\n",
+            "score": 1.0,
+            "language": "java"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Java Static Initializer Block",
+            "code": "\n\npublic static boolean flag = false;\npublic static int B,H;\n\nstatic{\n        Scanner cin=new Scanner(System.in);\n        B=cin.nextInt();\n        H=cin.nextInt();\n        if(B\u003e0 \u0026\u0026 H\u003e0){\n            flag=true;\n        }else{\n            System.out.println(\"java.lang.Exception: Breadth and height must be positive\");\n        }\n    }\n\n",
+            "score": 1.0,
+            "language": "java"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Mini-Max Sum",
+            "code": "#!/bin/python3\n\nimport math\nimport os\nimport random\nimport re\nimport sys\n\n#\n# Complete the 'miniMaxSum' function below.\n#\n# The function accepts INTEGER_ARRAY arr as parameter.\n#\n\ndef miniMaxSum(arr):\n    arr.sort()\n    sum = 0\n    for i in range(len(arr)-1):\n        sum += arr[i]\n    print(sum,end=\" \")\n    sum = 0\n    for i in range(1,len(arr)):\n        sum += arr[i]\n    print(sum)\n\nif __name__ == '__main__':\n\n    arr = list(map(int, input().rstrip().split()))\n\n    miniMaxSum(arr)\n",
+            "score": 1.0,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Birthday Cake Candles",
+            "code": "#!/bin/python3\n\nimport math\nimport os\nimport random\nimport re\nimport sys\n\n#\n# Complete the 'birthdayCakeCandles' function below.\n#\n# The function is expected to return an INTEGER.\n# The function accepts INTEGER_ARRAY candles as parameter.\n#\n\ndef birthdayCakeCandles(candles):\n    tallest = [0,0]\n    for x in candles:\n        if x \u003e tallest[0]:\n            tallest[0] = x\n            tallest[1] = 1\n        elif x == tallest[0]:\n            tallest[1] += 1\n        else:\n            continue\n    return tallest[1]\n\nif __name__ == '__main__':\n    fptr = open(os.environ['OUTPUT_PATH'], 'w')\n\n    candles_count = int(input().strip())\n\n    candles = list(map(int, input().rstrip().split()))\n\n    result = birthdayCakeCandles(candles)\n\n    fptr.write(str(result) + '\\n')\n\n    fptr.close()\n",
+            "score": 1.0,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Time Conversion",
+            "code": "#!/bin/python3\n\nimport math\nimport os\nimport random\nimport re\nimport sys\n\n#\n# Complete the 'timeConversion' function below.\n#\n# The function is expected to return a STRING.\n# The function accepts STRING s as parameter.\n#\n\ndef timeConversion(s):\n    if s[-1:] == \"AM\":\n        return s[:-2]\n    else:\n        h = 12 + int(s[:2])\n        return str(h) + s[2:-2]\n\nif __name__ == '__main__':\n    fptr = open(os.environ['OUTPUT_PATH'], 'w')\n\n    s = input()\n\n    result = timeConversion(s)\n\n    fptr.write(result + '\\n')\n\n    fptr.close()\n",
+            "score": 0.333333333333,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Time Conversion",
+            "code": "#!/bin/python3\n\nimport math\nimport os\nimport random\nimport re\nimport sys\n\n#\n# Complete the 'timeConversion' function below.\n#\n# The function is expected to return a STRING.\n# The function accepts STRING s as parameter.\n#\n\ndef timeConversion(s):\n    if s[-2:] == \"AM\":\n        h = (12 + int(s[:2]))%12\n        return str(h) + s[2:-2]\n    else:\n        h = 12 + int(s[:2])\n        return str(h) + s[2:-2]\n    \nif __name__ == '__main__':\n    fptr = open(os.environ['OUTPUT_PATH'], 'w')\n\n    s = input()\n\n    result = timeConversion(s)\n\n    fptr.write(result + '\\n')\n\n    fptr.close()\n",
+            "score": 0.333333333333,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Time Conversion",
+            "code": "#!/bin/python3\n\nimport math\nimport os\nimport random\nimport re\nimport sys\n\n#\n# Complete the 'timeConversion' function below.\n#\n# The function is expected to return a STRING.\n# The function accepts STRING s as parameter.\n#\n\ndef timeConversion(s):\n    h = (int(s[:2]))%12\n    if s[-2:] == \"PM\":\n        h += 12\n    return str(h) + s[2:-2]\n    \nif __name__ == '__main__':\n    fptr = open(os.environ['OUTPUT_PATH'], 'w')\n\n    s = input()\n\n    result = timeConversion(s)\n\n    fptr.write(result + '\\n')\n\n    fptr.close()\n",
+            "score": 0.444444444444,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Grading Students",
+            "code": "#!/bin/python3\n\nimport math\nimport os\nimport random\nimport re\nimport sys\n\n#\n# Complete the 'gradingStudents' function below.\n#\n# The function is expected to return an INTEGER_ARRAY.\n# The function accepts INTEGER_ARRAY grades as parameter.\n#\n\ndef gradingStudents(grades):\n    rounded = []\n    for x in grades:\n        if x\u003c38:\n            rounded.append(x)\n            continue\n        if 5-(x%5) \u003c3:\n            rounded.append(x+(5-x%5))\n        else:\n            rounded.append(x)\n    return rounded\n\nif __name__ == '__main__':\n    fptr = open(os.environ['OUTPUT_PATH'], 'w')\n\n    grades_count = int(input().strip())\n\n    grades = []\n\n    for _ in range(grades_count):\n        grades_item = int(input().strip())\n        grades.append(grades_item)\n\n    result = gradingStudents(grades)\n\n    fptr.write('\\n'.join(map(str, result)))\n    fptr.write('\\n')\n\n    fptr.close()\n",
+            "score": 1.0,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Number Line Jumps",
+            "code": "#!/bin/python3\n\nimport math\nimport os\nimport random\nimport re\nimport sys\n\n#\n# Complete the 'kangaroo' function below.\n#\n# The function is expected to return a STRING.\n# The function accepts following parameters:\n#  1. INTEGER x1\n#  2. INTEGER v1\n#  3. INTEGER x2\n#  4. INTEGER v2\n#\n\ndef kangaroo(x1, v1, x2, v2):\n    if x1\u003ex2:\n        if v1\u003ev2:\n            return \"NO\"\n        else:\n            return \"YES\"\n    else:\n       if v2\u003ev1:\n           return \"NO\"\n       else:\n           return \"YES\"     \n\nif __name__ == '__main__':\n    fptr = open(os.environ['OUTPUT_PATH'], 'w')\n\n    first_multiple_input = input().rstrip().split()\n\n    x1 = int(first_multiple_input[0])\n\n    v1 = int(first_multiple_input[1])\n\n    x2 = int(first_multiple_input[2])\n\n    v2 = int(first_multiple_input[3])\n\n    result = kangaroo(x1, v1, x2, v2)\n\n    fptr.write(result + '\\n')\n\n    fptr.close()\n",
+            "score": 0.405405405405,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Number Line Jumps",
+            "code": "#!/bin/python3\n\nimport math\nimport os\nimport random\nimport re\nimport sys\n\n#\n# Complete the 'kangaroo' function below.\n#\n# The function is expected to return a STRING.\n# The function accepts following parameters:\n#  1. INTEGER x1\n#  2. INTEGER v1\n#  3. INTEGER x2\n#  4. INTEGER v2\n#\n\ndef kangaroo(x1, v1, x2, v2):\n    exist = False\n    while(True):\n        if x1 == x2:\n            exist = True\n            break\n        if (v1 \u003e v2 and x1 \u003e x2) or (v2 \u003e v1 and x2 \u003e x1) or (v2 == v1 and x2 != x1):\n            break\n        x1 += v1\n        x2 += v2\n        \n    if exist:\n        return 'YES'\n    else:\n        return 'NO'     \n\nif __name__ == '__main__':\n    fptr = open(os.environ['OUTPUT_PATH'], 'w')\n\n    first_multiple_input = input().rstrip().split()\n\n    x1 = int(first_multiple_input[0])\n\n    v1 = int(first_multiple_input[1])\n\n    x2 = int(first_multiple_input[2])\n\n    v2 = int(first_multiple_input[3])\n\n    result = kangaroo(x1, v1, x2, v2)\n\n    fptr.write(result + '\\n')\n\n    fptr.close()\n",
+            "score": 1.0,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Between Two Sets",
+            "code": "#!/bin/python3\n\nimport math\nimport os\nimport random\nimport re\nimport sys\n\n#\n# Complete the 'getTotalX' function below.\n#\n# The function is expected to return an INTEGER.\n# The function accepts following parameters:\n#  1. INTEGER_ARRAY a\n#  2. INTEGER_ARRAY b\n#\n\ndef getTotalX(a, b):\n    result = 0\n    for i in range(max(a),min(b)+1):\n        f = True\n        for j in a:\n            if i%j != 0:\n                f = False\n                break\n    \n        for j in b:\n            if j%i != 0:\n                f = False\n                break\n        \n        if f == True:\n            result += 1\n    return result\n\nif __name__ == '__main__':\n    fptr = open(os.environ['OUTPUT_PATH'], 'w')\n\n    first_multiple_input = input().rstrip().split()\n\n    n = int(first_multiple_input[0])\n\n    m = int(first_multiple_input[1])\n\n    arr = list(map(int, input().rstrip().split()))\n\n    brr = list(map(int, input().rstrip().split()))\n\n    total = getTotalX(arr, brr)\n\n    fptr.write(str(total) + '\\n')\n\n    fptr.close()\n",
+            "score": 1.0,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Weather Observation Station 2",
+            "code": "/*\nEnter your query here.\n*/\nSELECT ROUND(SUM(LAT_N),2),ROUND(SUM(LONG_W),2) FROM STATION;",
+            "score": 1.0,
+            "language": "mysql"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Weather Observation Station 13",
+            "code": "/*\nEnter your query here.\n*/\nSELECT ROUND(SUM(LAT_N),4) FROM STATION WHERE LAT_N\u003e38.7880 AND LAT_N\u003c137.2345;",
+            "score": 1.0,
+            "language": "mysql"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Weather Observation Station 14",
+            "code": "/*\nEnter your query here.\n*/\nSELECT ROUND(MAX(LAT_N),4) FROM STATION WHERE LAT_N\u003c137.2345;",
+            "score": 1.0,
+            "language": "mysql"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Weather Observation Station 15",
+            "code": "/*\nEnter your query here.\n*/\nSELECT ROUND(LONG_W,4) FROM STATION WHERE LAT_N = (SELECT MAX(LAT_N) FROM STATION WHERE LAT_N\u003c137.2345);",
+            "score": 1.0,
+            "language": "mysql"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Weather Observation Station 16",
+            "code": "/*\nEnter your query here.\n*/\nSELECT ROUND(MIN(LAT_N),4) FROM STATION WHERE LAT_N\u003e38.7780;",
+            "score": 1.0,
+            "language": "mysql"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Weather Observation Station 17",
+            "code": "/*\nEnter your query here.\n*/\n\nSELECT ROUND(LONG_W,4) FROM STATION WHERE LAT_N = (SELECT MIN(LAT_N) FROM STATION WHERE LAT_N\u003e38.7780);",
+            "score": 1.0,
+            "language": "mysql"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Top Earners",
+            "code": "/*\nEnter your query here.\n*/\nSELECT MAX(months*salary),COUNT(months * salary) FROM Employee WHERE (months*salary) = (SELECT MAX(months*salary) FROM Employee);",
+            "score": 1.0,
+            "language": "mysql"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Population Census ",
+            "code": "SELECT SUM(POPULATION) FROM CITY WHERE COUNTRYCODE IN (SELECT CODE FROM COUNTRY WHERE CONTINENT = 'Asia');",
+            "score": 1.0,
+            "language": "mysql"
+        },
+        {
+            "contest": "Master",
+            "challenge": "African Cities",
+            "code": "SELECT NAME FROM CITY WHERE COUNTRYCODE IN (SELECT CODE FROM COUNTRY WHERE CONTINENT = 'Africa');",
+            "score": 1.0,
+            "language": "mysql"
+        },
+        {
+            "contest": "Master",
+            "challenge": "The PADS",
+            "code": "/*\nEnter your query here.\n*/\nSELECT NAME,\"(\"+LEFT(OCCUPATION,1)+\")\" FROM OCCUPATIONS ORDER BY NAME DESC;",
+            "score": 0.0,
+            "language": "mysql"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Java Int to String",
+            "code": "\n\n   //Write your code here\n   String s = Integer.toString(n);\n\n",
+            "score": 1.0,
+            "language": "java"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Java Date and Time",
+            "code": "\n\nclass Result {\n\n    /*\n     * Complete the 'findDay' function below.\n     *\n     * The function is expected to return a STRING.\n     * The function accepts following parameters:\n     *  1. INTEGER month\n     *  2. INTEGER day\n     *  3. INTEGER year\n     */\n\n    public static String findDay(int month, int day, int year) {\n        Calendar cal = Calendar.getInstance();\n        cal.set(Calendar.MONTH,month-1);\n        cal.set(Calendar.DAY_OF_MONTH,day);\n        cal.set(Calendar.YEAR,year);\nString dayOfWeek = cal.getDisplayName(Calendar.DAY_OF_WEEK, Calendar.LONG, Locale.US).toUpperCase();\n        return dayOfWeek;\n    }\n\n}\n\n",
+            "score": 1.0,
+            "language": "java"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Exceptions",
+            "code": "# Enter your code here. Read input from STDIN. Print output to STDOUT\nT = int(input())\nfor i in range(0,T):\n    try:\n        s = str(input()).split(\" \")\n        a = int(s[0])\n        b = int(s[1])\n        print(int(a/b))\n    except ValueError as v:\n        print(\"Error Code: invalid literal for int() with base 10: '$'\")\n    except ZeroDivisionError as z:\n        print(\"Error Code: integer division or modulo by zero\")\n    except Exception as e:\n        print(e)\n    \n",
+            "score": 0.0,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Exceptions",
+            "code": "# Enter your code here. Read input from STDIN. Print output to STDOUT\nT = int(input())\nfor i in range(0,T):\n    try:\n        s = str(input()).split(\" \")\n        a = int(s[0])\n        b = int(s[1])\n        print(int(a/b))\n    except ValueError as v:\n        print(\"Error Code: \" + str(v))\n    except ZeroDivisionError as z:\n        print(\"Error Code: integer division or modulo by zero\")\n    except Exception as e:\n        print(e)\n    \n",
+            "score": 1.0,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Introduction to Sets",
+            "code": "def average(array):\n    # your code goes here\n    s = set(array)\n    result = sum(s)/len(s)\n    return round(result,3)\n\n",
+            "score": 1.0,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Set .add() ",
+            "code": "# Enter your code here. Read input from STDIN. Print output to STDOUT\nn = int(input())\ns = set()\nfor i in range(n):\n    s.add(input())\nprint(len(s))\n",
+            "score": 1.0,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Set .union() Operation",
+            "code": "# Enter your code here. Read input from STDIN. Print output to STDOUT\ninput()\nea = str(input()).split(\" \")\nes = {e for e in ea}\ninput()\nba = str(input()).split(\" \")\nbs = {e for e in ba}\nprint(len(es.union(bs)))\n",
+            "score": 1.0,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Set .intersection() Operation",
+            "code": "# Enter your code here. Read input from STDIN. Print output to STDOUT\ninput()\ne = set(str(input()).split(\" \"))\ninput()\nb = set(str(input()).split(\" \"))\nprint(len(e.intersection(b)))\n",
+            "score": 1.0,
+            "language": "python3"
+        },
+        {
+            "contest": "Master",
+            "challenge": "Set .discard(), .remove() \u0026 .pop()",
+            "code": "n = int(input())\ns = set(map(int, input().split()))\nc = int(input())\nfor i in range(c):\n    m = str(input())\n    if \"pop\" in m:\n        s.pop()\n    elif \"remove\" in m:\n        a = m.split(\" \")\n        s.remove(int(a[1]))\n    elif \"discard\" in m:\n        a = m.split(\" \")\n        s.discard(int(a[1]))\n    else:\n        continue\n\nprint(sum(s))\n",
+            "score": 1.0,
+            "language": "python3"
+        }
+    ],
+    "teams": [],
+    "contest_participations": [
+        {
+            "jobs_consent": null,
+            "contest": "Master"
+        },
+        {
+            "jobs_consent": null,
+            "contest": "Encipher"
+        },
+        {
+            "jobs_consent": null,
+            "contest": "JAVA Program 1662437682"
+        }
+    ],
+    "forum_comments": [],
+    "all_ratings": [],
+    "contest_medals": [],
+    "survey_results": [],
+    "messages_sent": [],
+    "run_codes": [],
+    "contests_created": [],
+    "job_applications": [],
+    "skills_test": []
+}

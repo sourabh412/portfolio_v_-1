@@ -18,13 +18,13 @@ const up_anim = {
 function Contact() {
   return (
     <>
-      <motion.h1 className='text-center text-5xl text-white font-dmsans font-bold -z-[3]'
+      <motion.h1 className='text-center text-5xl text-white font-dmsans font-bold'
         variants={up_anim}
         initial="offscreen"
         whileInView="onscreen"
         transition={{ duration: 0.5 }}
       >Grab Some <span className="text-6xl text-[#40B6F2] font-gemunu">Coffee</span> & <span className="text-6xl text-[#40B6F2] font-gemunu">Connect</span> With Me</motion.h1>
-      <motion.div className="flex min-h-full items-center justify-center py-6 px-4 sm:px-6 lg:px-8 -z-[3]"
+      <motion.div className="flex min-h-full items-center justify-center pt-6 px-4 sm:px-6 lg:px-8"
         variants={up_anim}
         initial="offscreen"
         whileInView="onscreen"
@@ -32,8 +32,8 @@ function Contact() {
       >
         <div className="w-full max-w-2xl space-y-8">
           <div className='flex flex-wrap justify-center gap-10 mb-14'>
-            <a className="px-6 py-4 w-auto bg-[#fef4f5] flex items-center gap-3 flex-1 rounded-lg hover:drop-shadow-[0_35px_35px_rgba(0,0,0,0.5)] duration-500" href='mailto:hiremathsourabh12@gmail.com'><span className='h-10 w-10 inline-block'><img src={gmail} alt="imgs" /></span> hiremathsourabh12@gmail.com</a>
-            <a className="px-6 py-4 w-auto bg-[#f2f7fb] flex items-center gap-3 flex-1 rounded-lg hover:drop-shadow-[0_35px_35px_rgba(0,0,0,0.5)] duration-500" href='tel:+91 7204593495'><span className='h-10 w-10 inline-block'><img src={phone} alt="imgs" /></span> +91 7204593495</a>
+            <a className="px-6 py-4 w-auto bg-[#fef4f5] flex items-center gap-3 flex-1 rounded-lg hover:drop-shadow-[0_35px_35px_rgba(0,0,0,0.5)] duration-500" href='mailto:hiremathsourabh12@gmail.com' rel="noreferrer"><span className='h-10 w-10 inline-block'><img src={gmail} alt="imgs" /></span> hiremathsourabh12@gmail.com</a>
+            <a className="px-6 py-4 w-auto bg-[#f2f7fb] flex items-center gap-3 flex-1 rounded-lg hover:drop-shadow-[0_35px_35px_rgba(0,0,0,0.5)] duration-500" href='tel:+91 7204593495' rel="noreferrer"><span className='h-10 w-10 inline-block'><img src={phone} alt="imgs" /></span> +91 7204593495</a>
           </div>
           <form className="mt-8 space-y-6" action="#" method="POST">
             <div className="-space-y-px rounded-md shadow-sm">
