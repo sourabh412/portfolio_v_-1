@@ -69,23 +69,46 @@ function Projects() {
     let newGit = joinById(git, gitDesc);
     sort_by_key(newGit, 'id');
 
-    function filterBtn(by) {
-        const n = document.getElementById('allProjs');
+    function filterBtn(by,bttn) {
+        //change button
+        const allBtns = document.getElementById('FilterBtns');
+        const selectedBtn = allBtns.querySelector("#"+bttn);
+        allBtns.querySelectorAll("*").forEach(b => {
+            b.classList.remove("proj_active");
+        });
+        selectedBtn.classList.add("proj_active");
+
+        //change projects
+        const allProjs = document.getElementById('allProjs');
+        const show = allProjs.querySelectorAll("."+by);
+        allProjs.querySelectorAll(".ProjSelection").forEach(proj => {
+            proj.classList.add("hidden");
+        });
         switch (by) {
             case "web":
-                console.log("web");
+                show.forEach(proj => {
+                    proj.classList.remove("hidden");
+                });
                 break;
             case "mobile":
-                console.log("mobile");
+                show.forEach(proj => {
+                    proj.classList.remove("hidden");
+                });
                 break;
             case "DS":
-                console.log("DS");
+                show.forEach(proj => {
+                    proj.classList.remove("hidden");
+                });
                 break;
             case "others":
-                console.log("others");
+                show.forEach(proj => {
+                    proj.classList.remove("hidden");
+                });
                 break;
             default:
-                console.log("all");
+                allProjs.querySelectorAll(".ProjSelection").forEach(proj => {
+                    proj.classList.remove("hidden");
+                });
                 break;
         }
     }
@@ -100,17 +123,17 @@ function Projects() {
             >
                 <h1 className="text-4xl text-center text-white font-bold ml-4 leading-relaxed font-poppins tracking-wide">My &#12296;<span className="text-5xl text-[#40B6F2] font-gemunu">Projects</span> /&#12297; Section</h1>
             </motion.div>
-            <motion.div className='w-full h-auto flex flex-wrap justify-center gap-7 my-10'
+            <motion.div id="FilterBtns" className='w-full h-auto flex flex-wrap justify-center gap-7 my-10'
                 variants={up_anim}
                 initial="offscreen"
                 whileInView="onscreen"
                 transition={{ duration: 0.5 }}
             >
-                <button onClick={()=>{filterBtn("web")}} className='p-2 px-4 rounded-lg bg-white hover:bg-rose-500 text-bg-gray-700 hover:text-white duration-500 font-bold text-sm' type="button">Web App</button>
-                <button onClick={()=>{filterBtn("mobile")}} className='p-2 px-4 rounded-lg bg-white hover:bg-rose-500 text-bg-gray-700 hover:text-white duration-500 font-bold text-sm' type="button">Mobile App</button>
-                <button onClick={()=>{filterBtn("DS")}} className='p-2 px-4 rounded-lg bg-white hover:bg-rose-500 text-bg-gray-700 hover:text-white duration-500 font-bold text-sm' type="button">Data Science</button>
-                <button onClick={()=>{filterBtn("others")}} className='p-2 px-4 rounded-lg bg-white hover:bg-rose-500 text-bg-gray-700 hover:text-white duration-500 font-bold text-sm' type="button">Others</button>
-                <button onClick={()=>{filterBtn("all")}} className='p-2 px-4 rounded-lg bg-white hover:bg-rose-500 text-bg-gray-700 hover:text-white duration-500 font-bold text-sm proj_active' type="button">All</button>
+                <button id="web" onClick={()=>{filterBtn("web","web")}} className='p-2 px-4 rounded-lg bg-white hover:bg-rose-500 text-bg-gray-700 hover:text-white duration-500 font-bold text-sm' type="button">Web App</button>
+                <button id="mobile" onClick={()=>{filterBtn("mobile","mobile")}} className='p-2 px-4 rounded-lg bg-white hover:bg-rose-500 text-bg-gray-700 hover:text-white duration-500 font-bold text-sm' type="button">Mobile App</button>
+                <button id="DS" onClick={()=>{filterBtn("DS","DS")}} className='p-2 px-4 rounded-lg bg-white hover:bg-rose-500 text-bg-gray-700 hover:text-white duration-500 font-bold text-sm' type="button">Data Science</button>
+                <button id="others" onClick={()=>{filterBtn("others","others")}} className='p-2 px-4 rounded-lg bg-white hover:bg-rose-500 text-bg-gray-700 hover:text-white duration-500 font-bold text-sm' type="button">Others</button>
+                <button id="all" onClick={()=>{filterBtn("all","all")}} className='p-2 px-4 rounded-lg bg-white hover:bg-rose-500 text-bg-gray-700 hover:text-white duration-500 font-bold text-sm proj_active' type="button">All</button>
             </motion.div>
             <motion.div id="allProjs" className='lg:w-4/5 h-auto mx-auto flex flex-wrap justify-center gap-20'
                 variants={outer}
@@ -120,7 +143,7 @@ function Projects() {
             >
                 {
                     newGit.map((item) => (
-                        <motion.div key={item.id} className="w-72 h-auto p-4 rounded-md bg-white hover:drop-shadow-[0_35px_35px_rgba(0,0,0,0.5)]"
+                        <motion.div key={item.id} className={"w-72 h-auto p-4 rounded-md bg-white hover:drop-shadow-[0_35px_35px_rgba(0,0,0,0.5)] ProjSelection "+item.type}
                             variants={inner}
                             whileHover={{ scale: 1.1, transition: { duration: 0.5 } }}
                         >
@@ -141,7 +164,6 @@ function Projects() {
                             </div>
                             <h1 className='text-center text-base font-bold font-roboto-300 mb-3'>{(item.name1)?item.name1:""}</h1>
                             <p className='text-gray-500 text-justify'>{(item.desc)?item.desc:""}</p>
-                            <p className='hidden'>{(item.type)?item.type:""}</p>
                         </motion.div>
                     ))
                 }

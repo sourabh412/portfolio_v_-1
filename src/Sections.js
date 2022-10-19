@@ -12,17 +12,16 @@ function Sections() {
 
             entries.forEach(({ target, isIntersecting }) => {
                 var temp = document.getElementById("scroll_loc");
-                var temp1 = temp.querySelector("#"+target.getAttribute("id"));
+                var temp1 = temp.querySelector("#"+target.getAttribute("id")+"1");
                 if (isIntersecting && temp1!==null) {
                     temp.querySelectorAll("*").forEach(ele => {
                         ele.classList.remove("bg-white","animate-pulse");
                     });
                     temp1.classList.add("bg-white","animate-pulse");
-                    console.log(temp1);
                 }
             });
         });
-        
+
         const elemsWithIds = document.querySelectorAll("*[id]");
         elemsWithIds.forEach(elem => observer.observe(elem));
     }, [])

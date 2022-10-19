@@ -1,4 +1,5 @@
-import React from 'react';
+import React,{useRef} from 'react';
+import emailjs from '@emailjs/browser';
 import { motion } from 'framer-motion';
 import phone from '../assets/phone.png';
 import gmail from '../assets/gmail.png';
@@ -16,6 +17,19 @@ const up_anim = {
 }
 
 function Contact() {
+  const form = useRef();
+  function sendMail(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('service_qjir3nu', 'template_6nb4j5l', form.current, '8StSeocFa0TJF5KWG')
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
+      e.target.reset();
+  }
+
   return (
     <>
       <motion.h1 className='text-center text-5xl text-white font-dmsans font-bold'
@@ -35,7 +49,7 @@ function Contact() {
             <a className="px-6 py-4 w-auto bg-[#fef4f5] flex items-center gap-3 flex-1 rounded-lg hover:drop-shadow-[0_35px_35px_rgba(0,0,0,0.5)] duration-500" href='mailto:hiremathsourabh12@gmail.com' rel="noreferrer"><span className='h-10 w-10 inline-block'><img src={gmail} alt="imgs" /></span> hiremathsourabh12@gmail.com</a>
             <a className="px-6 py-4 w-auto bg-[#f2f7fb] flex items-center gap-3 flex-1 rounded-lg hover:drop-shadow-[0_35px_35px_rgba(0,0,0,0.5)] duration-500" href='tel:+91 7204593495' rel="noreferrer"><span className='h-10 w-10 inline-block'><img src={phone} alt="imgs" /></span> +91 7204593495</a>
           </div>
-          <form className="mt-8 space-y-6" action="#" method="POST">
+          <form ref={form} className="mt-8 space-y-6" onSubmit={sendMail}>
             <div className="-space-y-px rounded-md shadow-sm">
               <div>
                 <input
