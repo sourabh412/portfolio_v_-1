@@ -11,12 +11,12 @@ import h from '../assets/h.svg';
 import alt from '../assets/alt.svg';
 
 const navigation = [
-  { name: 'Home', href: '/#home', current: false },
-  { name: 'About', href: '/#about', current: false },
-  { name: 'Projects', href: '/#projects', current: false },
-  { name: 'Skills', href: '/#skills', current: false },
-  { name: 'Benchmarks', href: '/#benchmarks', current: false },
-  { name: 'Contact', href: '/#contact', current: false },
+  { name: 'Home', href: '/portfolio/#home', current: false },
+  { name: 'About', href: '/portfolio/#about', current: false },
+  { name: 'Projects', href: '/portfolio/#projects', current: false },
+  { name: 'Skills', href: '/portfolio/#skills', current: false },
+  { name: 'Benchmarks', href: '/portfolio/#benchmarks', current: false },
+  { name: 'Contact', href: '/portfolio/#contact', current: false },
 ]
 
 const outer = {
