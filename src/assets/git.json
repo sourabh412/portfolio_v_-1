@@ -22,7 +22,7 @@
     },
     {
         "id": 544319624,
-        "desc": "You seriously gotta pay more Attention if your hoping to know more about my Portfolio 🙃🙃🙃.",
+        "desc": "Just send me a message from the contacts section, we can have a coffee date later 😊.",
         "type": "web",
         "name1": "Personal Portfolio",
         "link": "/"
@@ -53,6 +53,13 @@
         "desc": "A simple web application built using HTML5, Bootstrap,CSS3, PHP, MySQL, Apache Server and Google's OAuth2 api for login. This web app is a simpler version of currently available Google Classroom, that allows the creation and management of a virual classroom.",
         "type": "web",
         "name1": "Virtual Classroom",
+        "link": null
+    },
+    {
+        "id": 557384930,
+        "desc": "My first flutter application built using Flutter and Dart. Fetches the time for different timezones using 'World Time API' and displays it on the screen. Allows user to select timezone.",
+        "type": "mobile",
+        "name1": "World Time",
         "link": null
     }
 ]

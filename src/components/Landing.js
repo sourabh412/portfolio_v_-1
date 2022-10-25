@@ -8,11 +8,9 @@ import alt from "../assets/alt.svg";
 function Landing() {
     return (
         <>
-            <motion.div className="absolute h-auto w-72 p-6 mr-10 bg-white rounded-2xl md:top-14 shadow-cus"
+            <motion.div className="absolute h-auto w-72 p-6 mr-10 bg-white rounded-2xl shadow-cus left-[400px] top-28 sm:left-[580px] sm:top-[214px]"
                 initial={{
                     opacity: 0,
-                    left: "35vw",
-                    top: "30vh",
                     zIndex: -6,
                     scale: 0
                 }}
@@ -38,12 +36,10 @@ function Landing() {
                     </div>
                 </div>
             </motion.div>
-            <motion.div className="h-auto w-64 p-3 px-6 ml-20 mt-14 bg-white rounded-2xl shadow-cus leading-4"
+            <motion.div className="h-auto w-64 p-3 px-6 ml-20 mt-14 bg-white rounded-2xl shadow-cus leading-4 left-[300px] top-[650px] sm:left-[580px] sm:top-[450px]"
                 initial={{
                     opacity: 0,
                     position: "absolute",
-                    left: "35vw",
-                    top: "60vh",
                     scale: 0,
                     zIndex: -6
                 }}
@@ -62,12 +58,9 @@ function Landing() {
                     ANDROID DEVELOPER<br />
                     DATA SCIENCE ENTHUSIAST </p>
             </motion.div>
-            <motion.img src={pylogo} alt={alt} className="rounded-full h-40 w-40 bg-white p-6 shadow-cus"
+            <motion.img src={pylogo} alt={alt} className="rounded-full h-40 w-40 bg-white p-6 shadow-cus -left-[380px] top-[870px] sm:left-[580px] sm:top-[350px] absolute block"
             initial={{
                 opacity: 0,
-                position: "absolute",
-                left: "35vw",
-                top: "40vh",
                 zIndex: -6,
                 scale: 0
             }}
@@ -81,12 +74,9 @@ function Landing() {
                 duration: 0.75,
             }}
             />
-            <motion.img src={reactlogo} alt={alt} className="rounded-full h-28 w-28 bg-white p-6 shadow-cus"
+            <motion.img src={reactlogo} alt={alt} className="rounded-full h-28 w-28 bg-white p-6 shadow-cus -left-[480px] top-[830px] sm:left-[580px] sm:top-[150px] absolute block"
             initial={{
                 opacity: 0,
-                position: "absolute",
-                left: "35vw",
-                top: "20vh",
                 zIndex: -6,
                 scale: 0
             }}
@@ -100,12 +90,9 @@ function Landing() {
                 duration: 0.75,
             }}
             />
-            <motion.img src={javalogo} alt={alt} className="rounded-full h-20 w-20 bg-white p-3 shadow-cus"
+            <motion.img src={javalogo} alt={alt} className="rounded-full h-20 w-20 bg-white p-3 shadow-cus -left-[200px] top-[1050px] sm:left-[680px] sm:top-[550px] absolute block"
             initial={{
                 opacity: 0,
-                position: "absolute",
-                left: "45vw",
-                top: "70vh",
                 zIndex: -6,
                 scale: 0
             }}

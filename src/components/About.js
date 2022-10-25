@@ -69,7 +69,7 @@ function About() {
                 >
                     <img src={frontend} alt="" className="w-full h-48 rounded-2xl" />
                     <h2 className="text-lg font-bold mt-5 text-white">Frontend Developer</h2>
-                    <p className="text-sm text-gray-300 mt-2">I am a frontend developer and have vast experience in developing beautiful mobile first web applications with functional and really smooth user experience using <b>modern react and CSS liberaries</b> along with knowledge on <b>Three.js.</b></p>
+                    <p className="text-sm text-gray-300 mt-2 text-justify">I am a frontend developer and have vast experience in developing beautiful mobile first web applications with functional and really smooth user experience using <b>modern react and CSS liberaries</b> along with knowledge on <b>Three.js.</b></p>
                 </motion.div>
                 <motion.div className='h-auto w-48 bg-transparent my-4 mx-8'
                     variants={inner}
@@ -77,7 +77,7 @@ function About() {
                 >
                     <img src={dataSci} alt="" className="w-full h-48 rounded-2xl" />
                     <h2 className="text-lg font-bold mt-5 text-white">Data Scientist</h2>
-                    <p className="text-sm text-gray-300 mt-2">From the time I have been exposed to the world of data science , I have had an immense amount of passion working with data what I feel is the modern age oil. I am currently learning more about this field and have great interest in working on related projects.</p>
+                    <p className="text-sm text-gray-300 mt-2 text-justify">From the time I have been exposed to the world of data science , I have had an immense amount of passion working with data what I feel is the modern age oil. I am currently learning more about this field and have great interest in working on related projects.</p>
                 </motion.div>
                 <motion.div className='h-auto w-48 bg-transparent my-4 mx-8'
                     variants={inner}
@@ -85,7 +85,7 @@ function About() {
                 >
                     <img src={backend} alt="" className="w-full h-48 rounded-2xl" />
                     <h2 className="text-lg font-bold mt-5 text-white">Backend Developer</h2>
-                    <p className="text-sm text-gray-300 mt-2">I am a backend developer and have vast experience in developing web applications with variety of business logic in <b>Django</b>, <b>PHP</b>, <b>JavaScript frameworks</b>, <b>MySQL</b>, <b>PostgreSQL</b>, <b>MongoDB</b>.</p>
+                    <p className="text-sm text-gray-300 mt-2 text-justify">I am a backend developer and have vast experience in developing web applications with variety of business logic in <b>Django</b>, <b>PHP</b>, <b>JavaScript frameworks</b>, <b>MySQL</b>, <b>PostgreSQL</b>, <b>MongoDB</b>.</p>
                 </motion.div>
                 <motion.div className='h-auto w-48 bg-transparent my-4 mx-8'
                     variants={inner}
@@ -93,7 +93,7 @@ function About() {
                 >
                     <img src={app} alt="" className="w-full h-48 rounded-2xl" />
                     <h2 className="text-lg font-bold mt-5 text-white">Android Developer</h2>
-                    <p className="text-sm text-gray-300 mt-2">I am an android developer working primarily with <b>java</b> and <b>xml</b> on <b>Android Studio</b>. I have developed few apps as custom practice projects along with <b>sqLite Db</b> and <b>Room Db</b>. I am looking forward to learning <b>Flutter</b> to build apps that work on Android as well as IOS.</p>
+                    <p className="text-sm text-gray-300 mt-2 text-justify">I am an android developer working primarily with <b>dart</b> and <b>flutter</b> on <b>Android Studio</b>. I have developed few apps as custom practice projects along with <b>sqLite Db</b> and <b>Room Db</b> using <b>flutter</b> and <b>android studio</b>.</p>
                 </motion.div>
             </motion.div>
         </>

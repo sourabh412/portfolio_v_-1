@@ -143,7 +143,7 @@ function Projects() {
             >
                 {
                     newGit.map((item) => (
-                        <motion.div key={item.id} className={"w-72 h-auto p-4 rounded-md bg-white hover:drop-shadow-[0_35px_35px_rgba(0,0,0,0.5)] ProjSelection "+item.type}
+                        <motion.div key={item.id} className={(item.name1) ? "w-72 h-auto p-4 rounded-md bg-white hover:drop-shadow-[0_35px_35px_rgba(0,0,0,0.5)] ProjSelection "+item.type : "hidden"}
                             variants={inner}
                             whileHover={{ scale: 1.1, transition: { duration: 0.5 } }}
                         >

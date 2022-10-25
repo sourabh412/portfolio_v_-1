@@ -30,7 +30,7 @@ function Sections() {
 
     return (
         <div id="sections_main_div">
-            <section className='h-auto mt-1 py-20' id="about">
+            <section className='h-auto mt-64 sm:mt-1 py-20' id="about">
                 <About />
             </section>
             <section className='h-auto mt-1 py-20' id="projects">

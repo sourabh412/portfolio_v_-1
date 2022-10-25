@@ -24,6 +24,10 @@
         "img": "kotlin.png"
     },
     {
+        "name": "Dart",
+        "img": "dart.png"
+    },
+    {
         "name": "Django",
         "img": "django.png"
     },
@@ -66,6 +70,10 @@
     {
         "name": "Android Studio",
         "img": "androidstudio.png"
+    },
+    {
+        "name": "Flutter",
+        "img": "flutter.png"
     },
     {
         "name": "Node JS",
