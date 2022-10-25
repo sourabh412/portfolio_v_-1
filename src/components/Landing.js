@@ -11,7 +11,6 @@ function Landing() {
             <motion.div className="absolute h-auto w-72 p-6 mr-10 bg-white rounded-2xl shadow-cus left-[400px] top-28 sm:left-[580px] sm:top-[214px]"
                 initial={{
                     opacity: 0,
-                    zIndex: -6,
                     scale: 0
                 }}
                 animate={{
@@ -41,7 +40,6 @@ function Landing() {
                     opacity: 0,
                     position: "absolute",
                     scale: 0,
-                    zIndex: -6
                 }}
                 animate={{
                     opacity: 1,
@@ -61,7 +59,6 @@ function Landing() {
             <motion.img src={pylogo} alt={alt} className="rounded-full h-40 w-40 bg-white p-6 shadow-cus -left-[380px] top-[770px] sm:left-[580px] sm:top-[350px] absolute block"
             initial={{
                 opacity: 0,
-                zIndex: -6,
                 scale: 0
             }}
             animate={{
@@ -77,7 +74,6 @@ function Landing() {
             <motion.img src={reactlogo} alt={alt} className="rounded-full h-28 w-28 bg-white p-6 shadow-cus -left-[480px] top-[730px] sm:left-[580px] sm:top-[150px] absolute block"
             initial={{
                 opacity: 0,
-                zIndex: -6,
                 scale: 0
             }}
             animate={{
@@ -93,7 +89,6 @@ function Landing() {
             <motion.img src={javalogo} alt={alt} className="rounded-full h-20 w-20 bg-white p-3 shadow-cus -left-[200px] top-[950px] sm:left-[680px] sm:top-[550px] absolute block"
             initial={{
                 opacity: 0,
-                zIndex: -6,
                 scale: 0
             }}
             animate={{

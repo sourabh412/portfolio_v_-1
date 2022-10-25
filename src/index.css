@@ -15,6 +15,10 @@ body {
     scroll-behavior: smooth;
 }
 
+#root{
+    overflow-x: hidden;
+}
+
 #home {
     position: relative;
     z-index: -5;
