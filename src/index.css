@@ -22,6 +22,7 @@ body {
 #home {
     position: relative;
     z-index: -5;
+    height: auto;
 }
 
 #sections_main_div section{
@@ -89,12 +90,11 @@ canvas {
     height: 1000px;
     width: 1000px;
     background: linear-gradient(-110deg, rgba(250, 176, 230, 0.279) 0%, rgba(255, 255, 255, 0) 50%);
-    /* background: white; */
     rotate: 30deg;
     z-index: -11;
-    left: 20vw;
+    left: 20%;
     top: 300vh;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 #Bg_triangle_1 {
@@ -116,4 +116,16 @@ canvas {
 .proj_active{
     background: rgb(225, 29, 72);
     color: white;
+}
+
+@media (max-width: 640px) {
+    #Bg_square_1{
+        height: 300px;
+        width: 300px;
+    }
+    #Bg_circle_2{
+        height: 300px;
+        width: 300px;
+        left: -5%;
+    }
 }
