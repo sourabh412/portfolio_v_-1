@@ -56,7 +56,7 @@ function Landing() {
                     ANDROID DEVELOPER<br />
                     DATA SCIENCE ENTHUSIAST </p>
             </motion.div>
-            <motion.img src={pylogo} alt={alt} className="rounded-full h-40 w-40 bg-white p-6 shadow-cus -left-[380px] top-[470px] sm:left-[580px] sm:top-[350px] absolute block z-10 overflow-x-hidden"
+            <motion.img src={pylogo} alt={alt} className="rounded-full h-40 w-40 bg-white p-6 shadow-cus -left-[350px] top-[470px] sm:left-[580px] sm:top-[350px] absolute block z-10 overflow-x-hidden"
             initial={{
                 opacity: 0,
                 scale: 0
