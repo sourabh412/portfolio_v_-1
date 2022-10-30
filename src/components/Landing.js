@@ -8,7 +8,7 @@ import alt from "../assets/alt.svg";
 function Landing() {
     return (
         <>
-            <motion.div className="absolute h-auto w-72 p-6 mr-10 bg-white rounded-2xl shadow-cus left-[400px] top-28 sm:left-[580px] sm:top-[214px] z-10 overflow-x-hidden"
+            <motion.div className="absolute h-auto w-72 p-6 mr-10 bg-white rounded-2xl shadow-cus left-[400px] top-28 sm:left-[580px] sm:top-[214px] -z-[2] overflow-x-hidden"
                 initial={{
                     opacity: 0,
                     scale: 0
@@ -35,7 +35,7 @@ function Landing() {
                     </div>
                 </div>
             </motion.div>
-            <motion.div className="h-auto w-64 p-3 px-6 ml-20 mt-14 bg-white rounded-2xl shadow-cus leading-4 left-[300px] top-[250px] sm:left-[580px] sm:top-[450px] z-10 overflow-x-hidden"
+            <motion.div className="h-auto w-64 p-3 px-6 ml-20 mt-14 bg-white rounded-2xl shadow-cus leading-4 left-[300px] top-[250px] sm:left-[580px] sm:top-[450px] -z-[2] overflow-x-hidden"
                 initial={{
                     opacity: 0,
                     position: "absolute",
@@ -56,7 +56,7 @@ function Landing() {
                     ANDROID DEVELOPER<br />
                     DATA SCIENCE ENTHUSIAST </p>
             </motion.div>
-            <motion.img src={pylogo} alt={alt} className="rounded-full h-40 w-40 bg-white p-6 shadow-cus -left-[350px] top-[470px] sm:left-[580px] sm:top-[350px] absolute block z-10 overflow-x-hidden"
+            <motion.img src={pylogo} alt={alt} className="rounded-full h-40 w-40 bg-white p-6 shadow-cus -left-[350px] top-[470px] sm:left-[580px] sm:top-[350px] absolute block -z-[2] overflow-x-hidden"
             initial={{
                 opacity: 0,
                 scale: 0
@@ -71,7 +71,7 @@ function Landing() {
                 duration: 0.75,
             }}
             />
-            <motion.img src={reactlogo} alt={alt} className="rounded-full h-28 w-28 bg-white p-6 shadow-cus -left-[480px] top-[430px] sm:left-[580px] sm:top-[150px] absolute block z-10 overflow-x-hidden"
+            <motion.img src={reactlogo} alt={alt} className="rounded-full h-28 w-28 bg-white p-6 shadow-cus -left-[480px] top-[430px] sm:left-[580px] sm:top-[150px] absolute block -z-[2] overflow-x-hidden"
             initial={{
                 opacity: 0,
                 scale: 0
@@ -86,7 +86,7 @@ function Landing() {
                 duration: 0.75,
             }}
             />
-            <motion.img src={javalogo} alt={alt} className="rounded-full h-20 w-20 bg-white p-3 shadow-cus -left-[200px] top-[650px] sm:left-[680px] sm:top-[550px] absolute block z-10 overflow-x-hidden"
+            <motion.img src={javalogo} alt={alt} className="rounded-full h-20 w-20 bg-white p-3 shadow-cus -left-[200px] top-[650px] sm:left-[680px] sm:top-[550px] absolute block -z-[2] overflow-x-hidden"
             initial={{
                 opacity: 0,
                 scale: 0
