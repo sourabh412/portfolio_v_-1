@@ -68,6 +68,10 @@
         "img": "mongodb.png"
     },
     {
+        "name": "Firebase",
+        "img": "firebase.png"
+    },
+    {
         "name": "Android Studio",
         "img": "androidstudio.png"
     },
