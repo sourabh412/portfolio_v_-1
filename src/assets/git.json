@@ -61,5 +61,12 @@
         "type": "mobile",
         "name1": "World Time",
         "link": null
+    },
+    {
+        "id": 561287595,
+        "desc": "Instagram clone application buit using Flutter and Dart. This flutter application is built as both an android app and a responsive web app. The backend consists of Firebase Firestore Db and Firebase storage.",
+        "type": "mobile web",
+        "name1": "Instagram clone",
+        "link": null
     }
 ]
