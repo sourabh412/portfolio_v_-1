@@ -68,5 +68,12 @@
         "type": "mobile web",
         "name1": "Instagram clone",
         "link": null
+    },
+    {
+        "id": 563918471,
+        "desc": "Modern UI of a ticket booking nuilt using Flutter and Dart. The app is a replica of UI design acquired from dribble.com, can be further converted to working model with the required Db and backend.",
+        "type": "mobile UI/UX",
+        "name1": "Ticket booking app",
+        "link": null
     }
 ]
