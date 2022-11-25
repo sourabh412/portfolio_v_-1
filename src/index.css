@@ -35,16 +35,11 @@ body {
 #home {
     position: relative;
     z-index: -5;
-    height: auto;
+    height: 714px;
 }
 
 #sections_main_div section{
     border-top: 1px dashed gray;
-}
-
-canvas {
-    height: 100vh;
-    width: 100%;
 }
 
 .bg-cus {
@@ -57,7 +52,7 @@ canvas {
     height: 500px;
     width: 500px;
     background: linear-gradient(to right, #188DC9, #E65DC4);
-    top: 750vh;
+    top: 350pc;
     right: 10px;
     overflow-x: hidden;
 }
@@ -92,7 +87,7 @@ canvas {
     height: 300px;
     width: 300px;
     background: linear-gradient(135deg, #188DC9, #E65DC4);
-    top: 500vh;
+    top: 200pc;
     left: 50px;
     overflow-x: hidden;
     z-index: -11;
@@ -106,7 +101,7 @@ canvas {
     rotate: 30deg;
     z-index: -11;
     left: 20%;
-    top: 300vh;
+    top: 100pc;
     overflow: hidden;
 }
 
@@ -114,8 +109,8 @@ canvas {
     position: absolute;
 	width: 800px;
 	height: 800px;
-    right: 20vw;
-    top: 600vh;
+    right: 100px;
+    top: 275pc;
     transform: skew(30deg);
     background: linear-gradient(-45deg, rgba(250, 176, 230, 0.279) 0%, rgba(255, 255, 255, 0) 50%);
     z-index: -11;

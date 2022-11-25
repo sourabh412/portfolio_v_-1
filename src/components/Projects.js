@@ -8,9 +8,6 @@ const outer = {
     },
     onscreen: {
         opacity: 1,
-        transition: {
-            staggerChildren: 0.2
-        }
     }
 }
 
