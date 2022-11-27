@@ -32,6 +32,10 @@ body {
     overflow: hidden;
 }
 
+#landing{
+    max-width: 1530px;
+}
+
 #home {
     position: relative;
     z-index: -5;

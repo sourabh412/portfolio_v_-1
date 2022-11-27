@@ -14,12 +14,14 @@ function App() {
     <>
       <Navbar />
       <Scroll_loc />
+      <div if="landing">
       <Landing />
       <section id="home">
         <Canvas camera={{ position: [0, 0, 2], fov: 100 }}>
           <Geo />
         </Canvas>
       </section>
+      </div>
       <Bg_circles />
       <Sections />
     </>
